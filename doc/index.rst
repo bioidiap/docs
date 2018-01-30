@@ -1,8 +1,8 @@
 .. vim: set fileencoding=utf-8 :
 
-=======================
- Bob Documentation
-=======================
+===================================
+ Documentation of all Bob packages
+===================================
 
 
 .. toctree::
@@ -10,44 +10,49 @@
 
    src/bob/doc/index.rst
    src/bob.extension/doc/index.rst
-   src/bob.blitz/doc/index.rst
-   src/bob.core/doc/index.rst
    src/bob.io.base/doc/index.rst
-   src/bob.sp/doc/index.rst
-   src/bob.ap/doc/index.rst
-   src/bob.math/doc/index.rst
-   src/bob.measure/doc/index.rst
    src/bob.io.image/doc/index.rst
-   src/bob.db.base/doc/index.rst
    src/bob.io.video/doc/index.rst
-   src/bob.io.matlab/doc/index.rst
    src/bob.io.audio/doc/index.rst
+   src/bob.io.matlab/doc/index.rst
+   src/bob.db.base/doc/index.rst
+   src/bob.measure/doc/index.rst
+   src/bob.bio.base/doc/index.rst
+   src/gridtk/doc/index.rst
+   src/bob.bio.face/doc/index.rst
+   src/bob.bio.gmm/doc/index.rst
+   src/bob.bio.spear/doc/index.rst
+   src/bob.bio.vein/doc/index.rst
+   src/bob.bio.video/doc/index.rst
+   src/bob.pad.base/doc/index.rst
+   src/bob.pad.face/doc/index.rst
    src/bob.ip.base/doc/index.rst
    src/bob.ip.color/doc/index.rst
+   src/bob.ip.dlib/doc/index.rst
    src/bob.ip.draw/doc/index.rst
+   src/bob.ip.facedetect/doc/index.rst
+   src/bob.ip.facelandmarks/doc/index.rst
+   src/bob.ip.flandmark/doc/index.rst
    src/bob.ip.gabor/doc/index.rst
+   src/bob.ip.optflow.hornschunck/doc/index.rst
+   src/bob.ip.optflow.liu/doc/index.rst
+   src/bob.ip.qualitymeasure/doc/index.rst
+   src/bob.ip.skincolorfilter/doc/index.rst
    src/bob.learn.activation/doc/index.rst
+   src/bob.learn.boosting/doc/index.rst
+   src/bob.learn.em/doc/index.rst
    src/bob.learn.libsvm/doc/index.rst
    src/bob.learn.linear/doc/index.rst
    src/bob.learn.mlp/doc/index.rst
-   src/bob.learn.em/doc/index.rst
-   src/bob.learn.boosting/doc/index.rst
-   src/bob.db.iris/doc/index.rst
-   src/bob.db.wine/doc/index.rst
-   src/bob.db.mnist/doc/index.rst
-   src/bob.db.atnt/doc/index.rst
-   src/bob.ip.facedetect/doc/index.rst
-   src/bob.ip.optflow.hornschunck/doc/index.rst
-   src/bob.ip.optflow.liu/doc/index.rst
-   src/bob.ip.flandmark/doc/index.rst
-   src/gridtk/doc/index.rst
-   src/bob.ip.qualitymeasure/doc/index.rst
-   src/bob.ip.skincolorfilter/doc/index.rst
-   src/bob.ip.facelandmarks/doc/index.rst
-   src/bob.ip.dlib/doc/index.rst
+   src/bob.math/doc/index.rst
+   src/bob.sp/doc/index.rst
+   src/bob.ap/doc/index.rst
+   src/bob.blitz/doc/index.rst
+   src/bob.core/doc/index.rst
    src/bob.db.arface/doc/index.rst
    src/bob.db.asvspoof/doc/index.rst
    src/bob.db.asvspoof2017/doc/index.rst
+   src/bob.db.atnt/doc/index.rst
    src/bob.db.atvskeystroke/doc/index.rst
    src/bob.db.avspoof/doc/index.rst
    src/bob.db.banca/doc/index.rst
@@ -56,41 +61,30 @@
    src/bob.db.casme2/doc/index.rst
    src/bob.db.caspeal/doc/index.rst
    src/bob.db.cohface/doc/index.rst
+   src/bob.db.cuhk_cufs/doc/index.rst
    src/bob.db.frgc/doc/index.rst
+   src/bob.db.fv3d/doc/index.rst
    src/bob.db.gbu/doc/index.rst
    src/bob.db.hci_tagging/doc/index.rst
    src/bob.db.ijba/doc/index.rst
+   src/bob.db.iris/doc/index.rst
    src/bob.db.kboc16/doc/index.rst
    src/bob.db.lfw/doc/index.rst
    src/bob.db.livdet2013/doc/index.rst
+   src/bob.db.mnist/doc/index.rst
    src/bob.db.mobio/doc/index.rst
    src/bob.db.msu_mfsd_mod/doc/index.rst
    src/bob.db.multipie/doc/index.rst
    src/bob.db.nist_sre12/doc/index.rst
+   src/bob.db.pericrosseye/doc/index.rst
    src/bob.db.putvein/doc/index.rst
    src/bob.db.replay/doc/index.rst
    src/bob.db.replaymobile/doc/index.rst
    src/bob.db.scface/doc/index.rst
    src/bob.db.utfvp/doc/index.rst
    src/bob.db.verafinger/doc/index.rst
-   src/bob.db.fv3d/doc/index.rst
-   src/bob.db.hkpu/doc/index.rst
-   src/bob.db.thufvdt/doc/index.rst
-   src/bob.db.mmcbnu6k/doc/index.rst
-   src/bob.db.hmtvein/doc/index.rst
    src/bob.db.voicepa/doc/index.rst
+   src/bob.db.voxforge/doc/index.rst
+   src/bob.db.wine/doc/index.rst
    src/bob.db.xm2vts/doc/index.rst
    src/bob.db.youtube/doc/index.rst
-   src/bob.db.pericrosseye/doc/index.rst
-   src/bob.db.cuhk_cufs/doc/index.rst
-   src/bob.bio.base/doc/index.rst
-   src/bob.bio.gmm/doc/index.rst
-   src/bob.bio.face/doc/index.rst
-   src/bob.bio.spear/doc/index.rst
-   src/bob.bio.video/doc/index.rst
-   src/bob.bio.vein/doc/index.rst
-   src/bob.db.voxforge/doc/index.rst
-   src/bob.pad.base/doc/index.rst
-   src/bob.pad.face/doc/index.rst
-   src/bob.db.oulunpu/doc/index.rst
-   src/bob.db.uvad/doc/index.rst

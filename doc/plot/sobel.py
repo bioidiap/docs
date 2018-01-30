@@ -1,0 +1,1 @@
+../src/bob.ip.base/doc/plot/sobel.py

@@ -1,0 +1,58 @@
+# Definition of our build pipeline
+stages:
+  - build
+  - deploy
+
+# ---------
+# Templates
+# ---------
+
+# Template for the build stage
+# Needs to run on all supported architectures, platforms and python versions
+.build_template: &build_job
+  stage: build
+  before_script:
+    - ./before_build.sh
+    - ./_ci/before_build.sh
+  script:
+    - ./_ci/build.sh
+  after_script:
+    - ./_ci/after_build.sh
+  artifacts:
+    expire_in: 1 week
+    paths:
+      - sphinx/
+
+
+# Template for (latest) documentation upload stage
+# Only one real job needs to do this
+.docs_template: &docs_job
+  stage: deploy
+  environment: intranet
+  only:
+    - master
+  before_script:
+    - ./_ci/install.sh _ci #updates
+    - ./_ci/before_docs.sh
+  script:
+    - ./_ci/docs.sh
+  after_script:
+    - ./_ci/after_docs.sh
+
+
+# Linux + Python 3.6
+build_linux_36:
+  <<: *build_job
+  variables: &linux_36_build_variables
+    PYTHON_VERSION: "3.6"
+    WHEEL_TAG: "py3"
+  tags:
+    - conda-linux
+
+docs_linux_36:
+  <<: *docs_job
+  variables: *linux_36_build_variables
+  dependencies:
+    - build_linux_36
+  tags:
+    - conda-linux

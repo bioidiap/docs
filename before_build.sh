@@ -1,6 +1,6 @@
 
 # Clone all packages
-for pkg in `cat requirements.txt | sed -e '/^\s*#.*/d;/^\s*$/d'`; do
+for pkg in bob `cat requirements.txt | sed -e '/^\s*#.*/d;/^\s*$/d'`; do
     git clone git@gitlab.idiap.ch:bob/$pkg doc/src/$pkg
 done
 

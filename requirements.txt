@@ -29,7 +29,6 @@ bob.ip.facedetect
 bob.ip.optflow.hornschunck
 bob.ip.optflow.liu
 bob.ip.flandmark
-bob
 gridtk
 bob.ip.qualitymeasure
 bob.ip.skincolorfilter

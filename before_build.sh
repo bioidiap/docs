@@ -1,11 +1,11 @@
 
 # Clone all packages
 for pkg in bob `cat requirements.txt | sed -e '/^\s*#.*/d;/^\s*$/d'`; do
-    git clone git@gitlab.idiap.ch:bob/$pkg doc/src/$pkg || \
-    git -C doc/src/$pkg clean -ffdx && \
-    git -C doc/src/$pkg checkout -- . && \
-    git -C doc/src/$pkg checkout master && \
-    git -C doc/src/$pkg pull
+    git clone git@gitlab.idiap.ch:bob/$pkg doc/$pkg || \
+    git -C doc/$pkg clean -ffdx && \
+    git -C doc/$pkg checkout -- . && \
+    git -C doc/$pkg checkout master && \
+    git -C doc/$pkg pull
 done
 
 # Create extra-intersphinx.txt
@@ -19,7 +19,7 @@ sed -e '$s/$/\n/' \
     -e 's:#.*$::g' \
     -e 's/[[:space:]]*$//' \
     -s \
-    doc/src/*/doc/extra-intersphinx.txt \
-    doc/src/*/requirements.txt \
-    doc/src/*/test-requirements.txt \
+    doc/*/doc/extra-intersphinx.txt \
+    doc/*/requirements.txt \
+    doc/*/test-requirements.txt \
     | sort -u > doc/extra-intersphinx.txt

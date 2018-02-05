@@ -1,1 +1,1 @@
-../src/bob.ip.base/doc/plot/face_eyes_norm.py
+../bob.ip.base/doc/plot/face_eyes_norm.py

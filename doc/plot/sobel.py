@@ -1,1 +1,1 @@
-../src/bob.ip.base/doc/plot/sobel.py
+../bob.ip.base/doc/plot/sobel.py

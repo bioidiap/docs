@@ -1,1 +1,1 @@
-../src/bob.ip.gabor/doc/plot/similarity.py
+../bob.ip.gabor/doc/plot/similarity.py

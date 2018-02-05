@@ -1,1 +1,1 @@
-../src/bob.ip.gabor/doc/plot/wavelet.py
+../bob.ip.gabor/doc/plot/wavelet.py

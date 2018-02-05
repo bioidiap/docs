@@ -1,1 +1,1 @@
-../src/bob.ip.gabor/doc/plot/disparity.py
+../bob.ip.gabor/doc/plot/disparity.py

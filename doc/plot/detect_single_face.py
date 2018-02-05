@@ -1,1 +1,1 @@
-../src/bob.ip.facedetect/doc/plot/detect_single_face.py
+../bob.ip.facedetect/doc/plot/detect_single_face.py

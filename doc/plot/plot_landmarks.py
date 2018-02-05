@@ -1,1 +1,1 @@
-../src/bob.ip.dlib/doc/plot/plot_landmarks.py
+../bob.ip.dlib/doc/plot/plot_landmarks.py

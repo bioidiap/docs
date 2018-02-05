@@ -1,1 +1,1 @@
-../src/bob.learn.em/doc/plot/plot_ML.py
+../bob.learn.em/doc/plot/plot_ML.py

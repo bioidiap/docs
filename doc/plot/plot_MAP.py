@@ -1,1 +1,1 @@
-../src/bob.learn.em/doc/plot/plot_MAP.py
+../bob.learn.em/doc/plot/plot_MAP.py

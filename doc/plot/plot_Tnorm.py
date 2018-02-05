@@ -1,1 +1,1 @@
-../src/bob.learn.em/doc/plot/plot_Tnorm.py
+../bob.learn.em/doc/plot/plot_Tnorm.py

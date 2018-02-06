@@ -32,7 +32,6 @@ stages:
   only:
     - master
   before_script:
-    - ./_ci/install.sh _ci #updates
     - ./_ci/before_docs.sh
   script:
     - ./_ci/docs.sh

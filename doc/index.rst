@@ -4,13 +4,133 @@
  Documentation of all Bob packages
 ===================================
 
+Start here
+----------
+
+* :ref:`bob_main_page`
+
+Basic Functionality
+-------------------
+
+* :ref:`bob.core`
+* :ref:`bob.math`
+
+Data Input and Output
+---------------------
+
+* :ref:`bob.io.base`
+* :ref:`bob.io.image`
+* :ref:`bob.io.video`
+* :ref:`bob.io.audio`
+* :ref:`bob.io.matlab`
+
+Signal, Audio, Image and Video Processing
+-----------------------------------------
+
+* :ref:`bob.sp`
+* :ref:`bob.ap`
+* :ref:`bob.ip.base`
+* :ref:`bob.ip.color`
+* :ref:`bob.ip.draw`
+* :ref:`bob.ip.gabor`
+* :ref:`bob.ip.facedetect`
+* :ref:`bob.ip.optflow.liu`
+* :ref:`bob.ip.optflow.hornschunck`
+* :ref:`bob.ip.flandmark`
+* :ref:`bob.ip.dlib`
+* :ref:`bob.ip.qualitymeasure`
+* :ref:`bob.ip.skincolorfilter`
+
+Machine Learning
+----------------
+
+* :ref:`bob.measure`
+* :ref:`bob.learn.linear`
+* :ref:`bob.learn.mlp`
+* :ref:`bob.learn.activation`
+* :ref:`bob.learn.libsvm`
+* :ref:`bob.learn.em`
+* :ref:`bob.learn.boosting`
+
+Modules for Developers
+----------------------
+
+* :ref:`bob.extension`
+* :ref:`bob.blitz`
+* :ref:`bob.buildout`
+
+Parallel Execution
+------------------
+
+* :ref:`gridtk`
+
+Biometric Recognition
+---------------------
+
+* :ref:`bob.bio.base`
+* :ref:`bob.bio.face`
+* :ref:`bob.bio.spear`
+* :ref:`bob.bio.vein`
+* :ref:`bob.bio.video`
+* :ref:`bob.bio.gmm`
+
+Presentation Attack Detection (anti-spoofing)
+---------------------------------------------
+
+* :ref:`bob.pad.base`
+* :ref:`bob.pad.face`
+
+Database Interfaces
+-------------------
+
+* :ref:`bob.db.base`
+* :ref:`bob.db.arface`
+* :ref:`bob.db.asvspoof`
+* :ref:`bob.db.asvspoof2017`
+* :ref:`bob.db.atnt`
+* :ref:`bob.db.atvskeystroke`
+* :ref:`bob.db.avspoof`
+* :ref:`bob.db.banca`
+* :ref:`bob.db.biosecure`
+* :ref:`bob.db.biosecurid.face`
+* :ref:`bob.db.casme2`
+* :ref:`bob.db.caspeal`
+* :ref:`bob.db.cohface`
+* :ref:`bob.db.cuhk_cufs`
+* :ref:`bob.db.frgc`
+* :ref:`bob.db.fv3d`
+* :ref:`bob.db.gbu`
+* :ref:`bob.db.hci_tagging`
+* :ref:`bob.db.ijba`
+* :ref:`bob.db.iris`
+* :ref:`bob.db.kboc16`
+* :ref:`bob.db.lfw`
+* :ref:`bob.db.livdet2013`
+* :ref:`bob.db.mnist`
+* :ref:`bob.db.mobio`
+* :ref:`bob.db.msu_mfsd_mod`
+* :ref:`bob.db.multipie`
+* :ref:`bob.db.pericrosseye`
+* :ref:`bob.db.putvein`
+* :ref:`bob.db.replay`
+* :ref:`bob.db.replaymobile`
+* :ref:`bob.db.scface`
+* :ref:`bob.db.utfvp`
+* :ref:`bob.db.verafinger`
+* :ref:`bob.db.voicepa`
+* :ref:`bob.db.wine`
+* :ref:`bob.db.xm2vts`
+* :ref:`bob.db.youtube`
+
+
+Index of all Packages
+=====================
 
 .. toctree::
    :maxdepth: 1
    :titlesonly:
 
-   bob/doc/index.rst
-   bob.extension/doc/index.rst
+   bob <bob/doc/index.rst>
    bob.ap <bob.ap/doc/index.rst>
    bob.bio.base <bob.bio.base/doc/index.rst>
    bob.bio.face <bob.bio.face/doc/index.rst>
@@ -58,6 +178,7 @@
    bob.db.wine <bob.db.wine/doc/index.rst>
    bob.db.xm2vts <bob.db.xm2vts/doc/index.rst>
    bob.db.youtube <bob.db.youtube/doc/index.rst>
+   bob.extension <bob.extension/doc/index.rst>
    bob.io.audio <bob.io.audio/doc/index.rst>
    bob.io.base <bob.io.base/doc/index.rst>
    bob.io.image <bob.io.image/doc/index.rst>

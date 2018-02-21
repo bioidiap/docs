@@ -70,7 +70,6 @@ requirements:
     - bob.db.mobio
     - bob.db.msu_mfsd_mod
     - bob.db.multipie
-    - bob.db.nist_sre12
     - bob.db.putvein
     - bob.db.replay
     - bob.db.replaymobile
@@ -89,7 +88,6 @@ requirements:
     - bob.bio.spear
     - bob.bio.video
     - bob.bio.vein
-    - bob.db.voxforge
     - bob.pad.base
     - bob.pad.face
 

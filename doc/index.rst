@@ -47,7 +47,6 @@
    bob.db.mobio <bob.db.mobio/doc/index.rst>
    bob.db.msu_mfsd_mod <bob.db.msu_mfsd_mod/doc/index.rst>
    bob.db.multipie <bob.db.multipie/doc/index.rst>
-   bob.db.nist_sre12 <bob.db.nist_sre12/doc/index.rst>
    bob.db.pericrosseye <bob.db.pericrosseye/doc/index.rst>
    bob.db.putvein <bob.db.putvein/doc/index.rst>
    bob.db.replay <bob.db.replay/doc/index.rst>
@@ -56,7 +55,6 @@
    bob.db.utfvp <bob.db.utfvp/doc/index.rst>
    bob.db.verafinger <bob.db.verafinger/doc/index.rst>
    bob.db.voicepa <bob.db.voicepa/doc/index.rst>
-   bob.db.voxforge <bob.db.voxforge/doc/index.rst>
    bob.db.wine <bob.db.wine/doc/index.rst>
    bob.db.xm2vts <bob.db.xm2vts/doc/index.rst>
    bob.db.youtube <bob.db.youtube/doc/index.rst>

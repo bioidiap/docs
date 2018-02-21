@@ -86,3 +86,5 @@ doc/gridtk/
 eggs/
 sphinx/
 doc/nitpick-exceptions.txt
+doc/bob.buildout/
+doc/bob.pad.voice/

@@ -1,7 +1,9 @@
+# to fix cloning in docker images
+GITLAB_CHECKOUT_STRATEGY="${GITLAB_CHECKOUT_STRATEGY:-git@gitlab.idiap.ch:}"
 
 # Clone all packages
 for pkg in bob `cat requirements.txt | sed -e '/^\s*#.*/d;/^\s*$/d'`; do
-    git clone git@gitlab.idiap.ch:bob/$pkg doc/$pkg || \
+    git clone --depth 1 ${GITLAB_CHECKOUT_STRATEGY}bob/$pkg doc/$pkg || \
     git -C doc/$pkg clean -ffdx && \
     git -C doc/$pkg checkout -- . && \
     git -C doc/$pkg checkout master && \

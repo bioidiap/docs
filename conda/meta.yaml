@@ -12,6 +12,7 @@ requirements:
   run:
     - python
     - setuptools
+    # this should be the same as requirements.txt
     - bob.extension
     - bob.blitz
     - bob.core

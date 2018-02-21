@@ -85,3 +85,4 @@ doc/extra-intersphinx.txt
 doc/gridtk/
 eggs/
 sphinx/
+doc/nitpick-exceptions.txt

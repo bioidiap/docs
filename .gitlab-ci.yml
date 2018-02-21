@@ -51,6 +51,7 @@ stages:
 build_linux_36:
   <<: *linux_build_job
   variables:
+    GITLAB_CHECKOUT_STRATEGY: "https://gitlab-ci-token:${CI_BUILD_TOKEN}@gitlab.idiap.ch/"
     PYTHON_VERSION: "3.6"
     BUILD_EGG: "true"
   artifacts:

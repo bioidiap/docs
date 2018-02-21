@@ -7,7 +7,7 @@
 Start here
 ----------
 
-* :ref:`bob`
+* :ref:`bob_main_page`
 
 Basic Functionality
 -------------------

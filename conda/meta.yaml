@@ -1,0 +1,108 @@
+{% set name = 'docs' %}
+{% set project_dir = environ.get('RECIPE_DIR') + '/..' %}
+
+package:
+  name: {{ name }}
+  version: {{ environ.get('BOB_PACKAGE_VERSION', '0.0.1') }}
+
+build:
+  number: {{ environ.get('BOB_BUILD_NUMBER', 0) }}
+
+requirements:
+  run:
+    - python
+    - setuptools
+    - bob.extension
+    - bob.blitz
+    - bob.core
+    - bob.io.base
+    - bob.sp
+    - bob.ap
+    - bob.math
+    - bob.measure
+    - bob.io.image
+    - bob.db.base
+    - bob.io.video
+    - bob.io.matlab
+    - bob.io.audio
+    - bob.ip.base
+    - bob.ip.color
+    - bob.ip.draw
+    - bob.ip.gabor
+    - bob.learn.activation
+    - bob.learn.libsvm
+    - bob.learn.linear
+    - bob.learn.mlp
+    - bob.learn.em
+    - bob.learn.boosting
+    - bob.db.iris
+    - bob.db.wine
+    - bob.db.mnist
+    - bob.db.atnt
+    - bob.ip.facedetect
+    - bob.ip.optflow.hornschunck
+    - bob.ip.optflow.liu
+    - bob.ip.flandmark
+    - bob
+    - gridtk
+    - bob.ip.qualitymeasure
+    - bob.ip.skincolorfilter
+    - bob.ip.facelandmarks
+    - bob.ip.dlib
+    - bob.db.arface
+    - bob.db.asvspoof
+    - bob.db.asvspoof2017
+    - bob.db.atvskeystroke
+    - bob.db.avspoof
+    - bob.db.banca
+    - bob.db.biosecure
+    - bob.db.biosecurid.face
+    - bob.db.casme2
+    - bob.db.caspeal
+    - bob.db.cohface
+    - bob.db.frgc
+    - bob.db.gbu
+    - bob.db.hci_tagging
+    - bob.db.ijba
+    - bob.db.kboc16
+    - bob.db.lfw
+    - bob.db.livdet2013
+    - bob.db.mobio
+    - bob.db.msu_mfsd_mod
+    - bob.db.multipie
+    - bob.db.putvein
+    - bob.db.replay
+    - bob.db.replaymobile
+    - bob.db.scface
+    - bob.db.utfvp
+    - bob.db.verafinger
+    - bob.db.fv3d
+    - bob.db.voicepa
+    - bob.db.xm2vts
+    - bob.db.youtube
+    - bob.db.pericrosseye
+    - bob.db.cuhk_cufs
+    - bob.bio.base
+    - bob.bio.gmm
+    - bob.bio.face
+    - bob.bio.spear
+    - bob.bio.video
+    - bob.bio.vein
+    - bob.pad.base
+    - bob.pad.face
+
+test:
+  commands:
+    - sphinx-build {{ project_dir }}/doc {{ project_dir }}/sphinx
+  requires:
+    - bob-devel {{ bob_devel }}.*
+    - nose
+    - coverage
+    - sphinx
+    - sphinx_rtd_theme
+
+about:
+  home: https://www.idiap.ch/software/bob/
+  license: BSD-3-Clause
+  summary: Bob's documentation aggregation repository
+  license_family: BSD

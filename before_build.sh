@@ -23,3 +23,14 @@ sed -e '$s/$/\n/' \
     doc/*/requirements.txt \
     doc/*/test-requirements.txt \
     | sort -u > doc/extra-intersphinx.txt
+
+# Create nitpick-exceptions.txt
+# Add newlines in the end of files
+# remove comments
+# remove trailing whitespace
+sed -e '$s/$/\n/' \
+    -e 's:#.*$::g' \
+    -e 's/[[:space:]]*$//' \
+    -s \
+    doc/*/doc/nitpick-exceptions.txt \
+    | sort -u > doc/nitpick-exceptions.txt

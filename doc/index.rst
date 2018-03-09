@@ -209,3 +209,4 @@ Index of all Packages
    bob.pad.face <bob.pad.face/doc/index.rst>
    bob.sp <bob.sp/doc/index.rst>
    gridtk <gridtk/doc/index.rst>
+   readme_index.rst

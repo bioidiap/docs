@@ -1,0 +1,88 @@
+.. vim: set fileencoding=utf-8 :
+
+README of all Packages
+=====================
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+
+   bob <bob/README.rst>
+   bob.ap <bob.ap/README.rst>
+   bob.bio.base <bob.bio.base/README.rst>
+   bob.bio.face <bob.bio.face/README.rst>
+   bob.bio.gmm <bob.bio.gmm/README.rst>
+   bob.bio.spear <bob.bio.spear/README.rst>
+   bob.bio.vein <bob.bio.vein/README.rst>
+   bob.bio.video <bob.bio.video/README.rst>
+   bob.blitz <bob.blitz/README.rst>
+   bob.buildout <bob.buildout/README.rst>
+   bob.core <bob.core/README.rst>
+   bob.db.arface <bob.db.arface/README.rst>
+   bob.db.asvspoof <bob.db.asvspoof/README.rst>
+   bob.db.asvspoof2017 <bob.db.asvspoof2017/README.rst>
+   bob.db.atnt <bob.db.atnt/README.rst>
+   bob.db.atvskeystroke <bob.db.atvskeystroke/README.rst>
+   bob.db.avspoof <bob.db.avspoof/README.rst>
+   bob.db.banca <bob.db.banca/README.rst>
+   bob.db.base <bob.db.base/README.rst>
+   bob.db.biosecure <bob.db.biosecure/README.rst>
+   bob.db.biosecurid.face <bob.db.biosecurid.face/README.rst>
+   bob.db.casme2 <bob.db.casme2/README.rst>
+   bob.db.caspeal <bob.db.caspeal/README.rst>
+   bob.db.cohface <bob.db.cohface/README.rst>
+   bob.db.cuhk_cufs <bob.db.cuhk_cufs/README.rst>
+   bob.db.frgc <bob.db.frgc/README.rst>
+   bob.db.fv3d <bob.db.fv3d/README.rst>
+   bob.db.gbu <bob.db.gbu/README.rst>
+   bob.db.hci_tagging <bob.db.hci_tagging/README.rst>
+   bob.db.ijba <bob.db.ijba/README.rst>
+   bob.db.iris <bob.db.iris/README.rst>
+   bob.db.kboc16 <bob.db.kboc16/README.rst>
+   bob.db.lfw <bob.db.lfw/README.rst>
+   bob.db.livdet2013 <bob.db.livdet2013/README.rst>
+   bob.db.mnist <bob.db.mnist/README.rst>
+   bob.db.mobio <bob.db.mobio/README.rst>
+   bob.db.msu_mfsd_mod <bob.db.msu_mfsd_mod/README.rst>
+   bob.db.multipie <bob.db.multipie/README.rst>
+   bob.db.pericrosseye <bob.db.pericrosseye/README.rst>
+   bob.db.putvein <bob.db.putvein/README.rst>
+   bob.db.replay <bob.db.replay/README.rst>
+   bob.db.replaymobile <bob.db.replaymobile/README.rst>
+   bob.db.scface <bob.db.scface/README.rst>
+   bob.db.utfvp <bob.db.utfvp/README.rst>
+   bob.db.verafinger <bob.db.verafinger/README.rst>
+   bob.db.voicepa <bob.db.voicepa/README.rst>
+   bob.db.wine <bob.db.wine/README.rst>
+   bob.db.xm2vts <bob.db.xm2vts/README.rst>
+   bob.db.youtube <bob.db.youtube/README.rst>
+   bob.extension <bob.extension/README.rst>
+   bob.io.audio <bob.io.audio/README.rst>
+   bob.io.base <bob.io.base/README.rst>
+   bob.io.image <bob.io.image/README.rst>
+   bob.io.matlab <bob.io.matlab/README.rst>
+   bob.io.video <bob.io.video/README.rst>
+   bob.ip.base <bob.ip.base/README.rst>
+   bob.ip.color <bob.ip.color/README.rst>
+   bob.ip.dlib <bob.ip.dlib/README.rst>
+   bob.ip.draw <bob.ip.draw/README.rst>
+   bob.ip.facedetect <bob.ip.facedetect/README.rst>
+   bob.ip.facelandmarks <bob.ip.facelandmarks/README.rst>
+   bob.ip.flandmark <bob.ip.flandmark/README.rst>
+   bob.ip.gabor <bob.ip.gabor/README.rst>
+   bob.ip.optflow.hornschunck <bob.ip.optflow.hornschunck/README.rst>
+   bob.ip.optflow.liu <bob.ip.optflow.liu/README.rst>
+   bob.ip.qualitymeasure <bob.ip.qualitymeasure/README.rst>
+   bob.ip.skincolorfilter <bob.ip.skincolorfilter/README.rst>
+   bob.learn.activation <bob.learn.activation/README.rst>
+   bob.learn.boosting <bob.learn.boosting/README.rst>
+   bob.learn.em <bob.learn.em/README.rst>
+   bob.learn.libsvm <bob.learn.libsvm/README.rst>
+   bob.learn.linear <bob.learn.linear/README.rst>
+   bob.learn.mlp <bob.learn.mlp/README.rst>
+   bob.math <bob.math/README.rst>
+   bob.measure <bob.measure/README.rst>
+   bob.pad.base <bob.pad.base/README.rst>
+   bob.pad.face <bob.pad.face/README.rst>
+   bob.sp <bob.sp/README.rst>
+   gridtk <gridtk/README.rst>

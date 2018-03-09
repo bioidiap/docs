@@ -10,6 +10,7 @@ doc/bob.bio.spear/
 doc/bob.bio.vein/
 doc/bob.bio.video/
 doc/bob.blitz/
+doc/bob.buildout/
 doc/bob.core/
 doc/bob.db.arface/
 doc/bob.db.asvspoof/
@@ -79,12 +80,11 @@ doc/bob.math/
 doc/bob.measure/
 doc/bob.pad.base/
 doc/bob.pad.face/
+doc/bob.pad.voice/
 doc/bob.sp/
 doc/bob/
 doc/extra-intersphinx.txt
 doc/gridtk/
+doc/nitpick-exceptions.txt
 eggs/
 sphinx/
-doc/nitpick-exceptions.txt
-doc/bob.buildout/
-doc/bob.pad.voice/

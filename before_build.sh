@@ -1,3 +1,7 @@
+#!/usr/bin/env bash
+
+set -ex
+
 # to fix cloning in docker images
 GITLAB_CHECKOUT_STRATEGY="${GITLAB_CHECKOUT_STRATEGY:-git@gitlab.idiap.ch:}"
 

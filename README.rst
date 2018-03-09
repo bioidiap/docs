@@ -12,6 +12,16 @@ To add a new package:
 
 * Make sure the package is **public** first. Do not add private packages here.
 * Add it in ``conda/meta.yaml`` and ``requirements.txt``.
-* Add it in ``doc/index.rst``.
+* Add it in ``doc/index.rst`` (you need to add it in several places in this file).
+* Add it in ``doc/readme_index.rst``.
+* Add it in ``.gitignore``.
 * If it plots something using matplotlib during its documentation generation,
   make sure you add a symlink for it in the docs folder.
+
+Test this package (build the documentation)
+===========================================
+
+Checkout bob.admin in an upper folder and make sure its repository is
+up-to-date. Then, run::
+
+    $ conda build -m ../bob.admin/gitlab/conda_build_config.yaml --override-channels -c https://www.idiap.ch/software/bob/conda/label/beta -c https://www.idiap.ch/software/bob/conda -c defaults conda

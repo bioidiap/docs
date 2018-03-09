@@ -139,6 +139,7 @@ Index of all Packages
    bob.bio.vein <bob.bio.vein/doc/index.rst>
    bob.bio.video <bob.bio.video/doc/index.rst>
    bob.blitz <bob.blitz/doc/index.rst>
+   bob.buildout <bob.buildout/doc/index.rst>
    bob.core <bob.core/doc/index.rst>
    bob.db.arface <bob.db.arface/doc/index.rst>
    bob.db.asvspoof <bob.db.asvspoof/doc/index.rst>

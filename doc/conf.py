@@ -25,18 +25,12 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
+    'sphinx.ext.mathjax',
     'matplotlib.sphinxext.plot_directive'
     ]
 
 # matplotlib.sphinxext.plot_directive
 plot_basedir = None
-
-import sphinx
-if sphinx.__version__ >= "1.4.1":
-    extensions.append('sphinx.ext.imgmath')
-    imgmath_image_format = 'svg'
-else:
-    extensions.append('sphinx.ext.pngmath')
 
 # Be picky about warnings
 nitpicky = True

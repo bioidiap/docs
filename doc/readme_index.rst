@@ -1,7 +1,7 @@
 .. vim: set fileencoding=utf-8 :
 
 README of all Packages
-=====================
+======================
 
 .. toctree::
    :maxdepth: 1

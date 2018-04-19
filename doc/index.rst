@@ -79,6 +79,7 @@ Presentation Attack Detection (anti-spoofing)
 
 * :ref:`bob.pad.base`
 * :ref:`bob.pad.face`
+* :ref:`bob.pad.vein`
 
 Database Interfaces
 -------------------
@@ -207,6 +208,7 @@ Index of all Packages
    bob.measure <bob.measure/doc/index.rst>
    bob.pad.base <bob.pad.base/doc/index.rst>
    bob.pad.face <bob.pad.face/doc/index.rst>
+   bob.pad.vein <bob.pad.vein/doc/index.rst>
    bob.sp <bob.sp/doc/index.rst>
    gridtk <gridtk/doc/index.rst>
    readme_index.rst

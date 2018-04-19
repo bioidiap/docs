@@ -12,8 +12,9 @@ for pkg in bob `cat requirements.txt | sed -e '/^\s*#.*/d;/^\s*$/d'`; do
     git -C doc/$pkg checkout master && \
     git -C doc/$pkg pull; }
     if [[ -n "${CI_COMMIT_TAG}" ]]; then
-      tag=`git -C doc/$pkg tag -l --sort="v:refname" | tail -n 1`
-      git -C doc/$pkg checkout $tag
+        git -C doc/$pkg fetch --tags
+        tag=`git -C doc/$pkg tag -l --sort="v:refname" | tail -n 1`
+        git -C doc/$pkg checkout $tag
     fi
 done
 

@@ -1,3 +1,6 @@
+*~
+*.swp
+*.swo
 .installed.cfg
 bin/
 bob.docs.egg-info/
@@ -80,6 +83,7 @@ doc/bob.math/
 doc/bob.measure/
 doc/bob.pad.base/
 doc/bob.pad.face/
+doc/bob.pad.vein/
 doc/bob.pad.voice/
 doc/bob.sp/
 doc/bob/

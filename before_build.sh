@@ -10,9 +10,9 @@ for pkg in bob `cat requirements.txt | sed -e '/^\s*#.*/d;/^\s*$/d'`; do
     git clone --depth 1 ${GITLAB_CHECKOUT_STRATEGY}bob/$pkg doc/$pkg || \
     { git -C doc/$pkg reset --hard HEAD && \
     git -C doc/$pkg checkout master && \
-    git -C doc/$pkg pull }
+    git -C doc/$pkg pull; }
     if [[ -n "${CI_COMMIT_TAG}" ]]; then
-      tag=`git -C doc/$pkg tag -l --sort=v:refname | tail -n 1`
+      tag=`git -C doc/$pkg tag -l --sort="v:refname" | tail -n 1`
       git -C doc/$pkg checkout $tag
     fi
 done

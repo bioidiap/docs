@@ -7,7 +7,7 @@ GITLAB_CHECKOUT_STRATEGY="${GITLAB_CHECKOUT_STRATEGY:-git@gitlab.idiap.ch:}"
 
 # Clone all packages
 for pkg in bob `cat requirements.txt | sed -e '/^\s*#.*/d;/^\s*$/d'`; do
-    git clone --depth 1 ${GITLAB_CHECKOUT_STRATEGY}bob/$pkg doc/$pkg || \
+    git clone --depth 1 ${GITLAB_CHECKOUT_STRATEGY}bob/${pkg}.git doc/$pkg || \
     { git -C doc/$pkg reset --hard HEAD && \
     git -C doc/$pkg checkout master && \
     git -C doc/$pkg pull; }

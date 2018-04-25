@@ -53,6 +53,7 @@ README of all Packages
    bob.db.utfvp <bob.db.utfvp/README.rst>
    bob.db.verafinger <bob.db.verafinger/README.rst>
    bob.db.voicepa <bob.db.voicepa/README.rst>
+   bob.db.voxforge <bob.db.voxforge/README.rst>
    bob.db.wine <bob.db.wine/README.rst>
    bob.db.xm2vts <bob.db.xm2vts/README.rst>
    bob.db.youtube <bob.db.youtube/README.rst>

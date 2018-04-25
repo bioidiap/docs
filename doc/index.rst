@@ -119,6 +119,7 @@ Database Interfaces
 * :ref:`bob.db.utfvp`
 * :ref:`bob.db.verafinger`
 * :ref:`bob.db.voicepa`
+* :ref:`bob.db.voxforge`
 * :ref:`bob.db.wine`
 * :ref:`bob.db.xm2vts`
 * :ref:`bob.db.youtube`
@@ -177,6 +178,7 @@ Index of all Packages
    bob.db.utfvp <bob.db.utfvp/doc/index.rst>
    bob.db.verafinger <bob.db.verafinger/doc/index.rst>
    bob.db.voicepa <bob.db.voicepa/doc/index.rst>
+   bob.db.voxforge <bob.db.voxforge/doc/index.rst>
    bob.db.wine <bob.db.wine/doc/index.rst>
    bob.db.xm2vts <bob.db.xm2vts/doc/index.rst>
    bob.db.youtube <bob.db.youtube/doc/index.rst>

@@ -44,6 +44,7 @@ bob.db.scface
 bob.db.utfvp
 bob.db.verafinger
 bob.db.voicepa
+bob.db.voxforge
 bob.db.wine
 bob.db.xm2vts
 bob.db.youtube

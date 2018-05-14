@@ -51,12 +51,14 @@ requirements:
     - bob.db.mobio
     - bob.db.msu_mfsd_mod
     - bob.db.multipie
+    - bob.db.oulunpu
     - bob.db.pericrosseye
     - bob.db.putvein
     - bob.db.replay
     - bob.db.replaymobile
     - bob.db.scface
     - bob.db.utfvp
+    - bob.db.uvad
     - bob.db.verafinger
     - bob.db.voicepa
     - bob.db.voxforge

@@ -45,12 +45,14 @@ README of all Packages
    bob.db.mobio <bob.db.mobio/README.rst>
    bob.db.msu_mfsd_mod <bob.db.msu_mfsd_mod/README.rst>
    bob.db.multipie <bob.db.multipie/README.rst>
+   bob.db.oulunpu <bob.db.oulunpu/README.rst>
    bob.db.pericrosseye <bob.db.pericrosseye/README.rst>
    bob.db.putvein <bob.db.putvein/README.rst>
    bob.db.replay <bob.db.replay/README.rst>
    bob.db.replaymobile <bob.db.replaymobile/README.rst>
    bob.db.scface <bob.db.scface/README.rst>
    bob.db.utfvp <bob.db.utfvp/README.rst>
+   bob.db.uvad <bob.db.uvad/README.rst>
    bob.db.verafinger <bob.db.verafinger/README.rst>
    bob.db.voicepa <bob.db.voicepa/README.rst>
    bob.db.voxforge <bob.db.voxforge/README.rst>

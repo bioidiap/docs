@@ -86,8 +86,8 @@ Database Interfaces
 
 * :ref:`bob.db.base`
 * :ref:`bob.db.arface`
-* :ref:`bob.db.asvspoof`
 * :ref:`bob.db.asvspoof2017`
+* :ref:`bob.db.asvspoof`
 * :ref:`bob.db.atnt`
 * :ref:`bob.db.atvskeystroke`
 * :ref:`bob.db.avspoof`
@@ -111,12 +111,14 @@ Database Interfaces
 * :ref:`bob.db.mobio`
 * :ref:`bob.db.msu_mfsd_mod`
 * :ref:`bob.db.multipie`
+* :ref:`bob.db.oulunpu`
 * :ref:`bob.db.pericrosseye`
 * :ref:`bob.db.putvein`
 * :ref:`bob.db.replay`
 * :ref:`bob.db.replaymobile`
 * :ref:`bob.db.scface`
 * :ref:`bob.db.utfvp`
+* :ref:`bob.db.uvad`
 * :ref:`bob.db.verafinger`
 * :ref:`bob.db.voicepa`
 * :ref:`bob.db.voxforge`
@@ -170,12 +172,14 @@ Index of all Packages
    bob.db.mobio <bob.db.mobio/doc/index.rst>
    bob.db.msu_mfsd_mod <bob.db.msu_mfsd_mod/doc/index.rst>
    bob.db.multipie <bob.db.multipie/doc/index.rst>
+   bob.db.oulunpu <bob.db.oulunpu/doc/index.rst>
    bob.db.pericrosseye <bob.db.pericrosseye/doc/index.rst>
    bob.db.putvein <bob.db.putvein/doc/index.rst>
    bob.db.replay <bob.db.replay/doc/index.rst>
    bob.db.replaymobile <bob.db.replaymobile/doc/index.rst>
    bob.db.scface <bob.db.scface/doc/index.rst>
    bob.db.utfvp <bob.db.utfvp/doc/index.rst>
+   bob.db.uvad <bob.db.uvad/doc/index.rst>
    bob.db.verafinger <bob.db.verafinger/doc/index.rst>
    bob.db.voicepa <bob.db.voicepa/doc/index.rst>
    bob.db.voxforge <bob.db.voxforge/doc/index.rst>

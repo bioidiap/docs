@@ -21,7 +21,13 @@ To add a new package:
 Test this package (build the documentation)
 ===========================================
 
-Checkout bob.admin in an upper folder and make sure its repository is
-up-to-date. Then, run::
+The steps to test this package is similar to other bob packages except that you
+need to run the `before_build.sh` script before testing. Checkout bob.admin in
+an upper folder and make sure its repository is up-to-date. Then, run::
 
-    $ conda build -m ../bob.admin/gitlab/conda_build_config.yaml --override-channels -c https://www.idiap.ch/software/bob/conda/label/beta -c https://www.idiap.ch/software/bob/conda -c defaults conda
+    $ ./before_build.sh
+    $ conda activate base
+    $ ../bob.admin/conda/conda-build.sh --python=3 conda
+
+See https://gitlab.idiap.ch/bob/bob/wikis/Save-the-CI-time for up-to-date
+instructions.

@@ -40,6 +40,7 @@ Signal, Audio, Image and Video Processing
 * :ref:`bob.ip.dlib`
 * :ref:`bob.ip.qualitymeasure`
 * :ref:`bob.ip.skincolorfilter`
+* :ref:`bob.ip.mtcnn`
 
 Machine Learning
 ----------------
@@ -73,6 +74,9 @@ Biometric Recognition
 * :ref:`bob.bio.vein`
 * :ref:`bob.bio.video`
 * :ref:`bob.bio.gmm`
+* :ref:`bob.bio.caffe_face`
+* :ref:`bob.ip.tensorflow_extractor`
+
 
 Presentation Attack Detection (anti-spoofing)
 ---------------------------------------------
@@ -81,6 +85,13 @@ Presentation Attack Detection (anti-spoofing)
 * :ref:`bob.pad.face`
 * :ref:`bob.pad.vein`
 * :ref:`bob.pad.voice`
+
+
+Remote Heart Rate Measurement
+-----------------------------
+
+* :ref:`bob.rppg.base`
+
 
 Database Interfaces
 -------------------
@@ -126,7 +137,15 @@ Database Interfaces
 * :ref:`bob.db.wine`
 * :ref:`bob.db.xm2vts`
 * :ref:`bob.db.youtube`
-
+* :ref:`bob.db.ijbc`
+* :ref:`bob.db.hkpu`
+* :ref:`bob.db.thufvdt`
+* :ref:`bob.db.mmcbnu6k`
+* :ref:`bob.db.hmtvein`
+* :ref:`bob.db.cbsr_nir_vis_2`
+* :ref:`bob.db.nivl`
+* :ref:`bob.db.pola_thermal`
+* :ref:`bob.db.cuhk_cufsf`
 
 Index of all Packages
 =====================

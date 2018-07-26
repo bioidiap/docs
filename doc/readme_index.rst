@@ -10,6 +10,7 @@ README of all Packages
    bob <bob/README.rst>
    bob.ap <bob.ap/README.rst>
    bob.bio.base <bob.bio.base/README.rst>
+   bob.bio.caffe_face <bob.bio.caffe_face/README.rst>
    bob.bio.face <bob.bio.face/README.rst>
    bob.bio.gmm <bob.bio.gmm/README.rst>
    bob.bio.spear <bob.bio.spear/README.rst>
@@ -17,7 +18,7 @@ README of all Packages
    bob.bio.video <bob.bio.video/README.rst>
    bob.blitz <bob.blitz/README.rst>
    bob.buildout <bob.buildout/README.rst>
-   bob.core <bob.core/README.rst>
+   bob.core <bob.core/README.rst>   
    bob.db.arface <bob.db.arface/README.rst>
    bob.db.asvspoof <bob.db.asvspoof/README.rst>
    bob.db.asvspoof2017 <bob.db.asvspoof2017/README.rst>
@@ -29,28 +30,37 @@ README of all Packages
    bob.db.biosecure <bob.db.biosecure/README.rst>
    bob.db.biosecurid.face <bob.db.biosecurid.face/README.rst>
    bob.db.casme2 <bob.db.casme2/README.rst>
+   bob.db.cbsr_nir_vis_2 <bob.db.cbsr_nir_vis_2/README.rst>
    bob.db.caspeal <bob.db.caspeal/README.rst>
    bob.db.cohface <bob.db.cohface/README.rst>
    bob.db.cuhk_cufs <bob.db.cuhk_cufs/README.rst>
+   bob.db.cuhk_cufsf <bob.db.cuhk_cufsf/README.rst>   
    bob.db.frgc <bob.db.frgc/README.rst>
    bob.db.fv3d <bob.db.fv3d/README.rst>
    bob.db.gbu <bob.db.gbu/README.rst>
    bob.db.hci_tagging <bob.db.hci_tagging/README.rst>
+   bob.db.hkpu <bob.db.hkpu/README.rst>
+   bob.db.hmtvein <bob.db.hmtvein/README.rst>
    bob.db.ijba <bob.db.ijba/README.rst>
+   bob.db.ijbc <bob.db.ijbc/README.rst>
    bob.db.iris <bob.db.iris/README.rst>
    bob.db.kboc16 <bob.db.kboc16/README.rst>
    bob.db.lfw <bob.db.lfw/README.rst>
    bob.db.livdet2013 <bob.db.livdet2013/README.rst>
+   bob.db.mmcbnu6k <bob.db.mmcbnu6k/README.rst>
    bob.db.mnist <bob.db.mnist/README.rst>
    bob.db.mobio <bob.db.mobio/README.rst>
    bob.db.msu_mfsd_mod <bob.db.msu_mfsd_mod/README.rst>
    bob.db.multipie <bob.db.multipie/README.rst>
+   bob.db.nivl <bob.db.nivl/README.rst>
    bob.db.oulunpu <bob.db.oulunpu/README.rst>
    bob.db.pericrosseye <bob.db.pericrosseye/README.rst>
+   bob.db.pola_thermal<bob.db.pola_thermal/README.rst>
    bob.db.putvein <bob.db.putvein/README.rst>
    bob.db.replay <bob.db.replay/README.rst>
    bob.db.replaymobile <bob.db.replaymobile/README.rst>
    bob.db.scface <bob.db.scface/README.rst>
+   bob.db.thufvdt <bob.db.thufvdt/README.rst>
    bob.db.utfvp <bob.db.utfvp/README.rst>
    bob.db.uvad <bob.db.uvad/README.rst>
    bob.db.verafinger <bob.db.verafinger/README.rst>
@@ -66,6 +76,7 @@ README of all Packages
    bob.io.matlab <bob.io.matlab/README.rst>
    bob.io.video <bob.io.video/README.rst>
    bob.ip.base <bob.ip.base/README.rst>
+   bob.ip.caffe_extractor <bob.ip.caffe_extractor/README.rst>
    bob.ip.color <bob.ip.color/README.rst>
    bob.ip.dlib <bob.ip.dlib/README.rst>
    bob.ip.draw <bob.ip.draw/README.rst>
@@ -73,10 +84,12 @@ README of all Packages
    bob.ip.facelandmarks <bob.ip.facelandmarks/README.rst>
    bob.ip.flandmark <bob.ip.flandmark/README.rst>
    bob.ip.gabor <bob.ip.gabor/README.rst>
+   bob.ip.mtcnn <bob.ip.mtcnn/README.rst>   
    bob.ip.optflow.hornschunck <bob.ip.optflow.hornschunck/README.rst>
    bob.ip.optflow.liu <bob.ip.optflow.liu/README.rst>
    bob.ip.qualitymeasure <bob.ip.qualitymeasure/README.rst>
    bob.ip.skincolorfilter <bob.ip.skincolorfilter/README.rst>
+   bob.ip.tensorflow_extractor <bob.ip.tensorflow_extractor/README.rst>   
    bob.learn.activation <bob.learn.activation/README.rst>
    bob.learn.boosting <bob.learn.boosting/README.rst>
    bob.learn.em <bob.learn.em/README.rst>
@@ -90,18 +103,5 @@ README of all Packages
    bob.pad.vein <bob.pad.vein/README.rst>
    bob.pad.voice <bob.pad.voice/README.rst>
    bob.sp <bob.sp/README.rst>
-   gridtk <gridtk/README.rst>
-   bob.ip.mtcnn <bob.ip.mtcnn/README.rst>
-   bob.db.ijbc <bob.db.ijbc/README.rst>
-   bob.db.hkpu <bob.db.hkpu/README.rst>
-   bob.db.thufvdt <bob.db.thufvdt/README.rst>
-   bob.db.mmcbnu6k <bob.db.mmcbnu6k/README.rst>
-   bob.db.hmtvein <bob.db.hmtvein/README.rst>
    bob.rppg.base <bob.rppg.base/README.rst>
-   bob.db.cbsr_nir_vis_2 <bob.db.cbsr_nir_vis_2/README.rst>
-   bob.db.nivl <bob.db.nivl/README.rst>
-   bob.db.pola_thermal<bob.db.pola_thermal/README.rst>
-   bob.db.cuhk_cufsf <bob.db.cuhk_cufsf/README.rst>
-   bob.ip.tensorflow_extractor <bob.ip.tensorflow_extractor/README.rst>
-   bob.ip.caffe_extractor <bob.ip.caffe_extractor/README.rst>
-   bob.bio.caffe_face <bob.bio.caffe_face/README.rst>
+   gridtk <gridtk/README.rst>

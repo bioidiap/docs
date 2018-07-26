@@ -82,3 +82,17 @@ bob.pad.vein
 bob.pad.voice
 bob.sp
 gridtk
+bob.ip.mtcnn
+bob.db.ijbc
+bob.db.hkpu
+bob.db.thufvdt
+bob.db.mmcbnu6k
+bob.db.hmtvein
+bob.rppg.base
+bob.db.cbsr_nir_vis_2
+bob.db.nivl
+bob.db.pola_thermal
+bob.db.cuhk_cufsf
+bob.ip.tensorflow_extractor
+bob.ip.caffe_extractor
+bob.bio.caffe_face

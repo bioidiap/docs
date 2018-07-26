@@ -16,6 +16,7 @@ requirements:
     - bob
     - bob.ap
     - bob.bio.base
+    - bob.bio.caffe_face
     - bob.bio.face
     - bob.bio.gmm
     - bob.bio.spear
@@ -36,23 +37,30 @@ requirements:
     - bob.db.biosecurid.face
     - bob.db.casme2
     - bob.db.caspeal
+    - bob.db.cbsr_nir_vis_2
     - bob.db.cohface
     - bob.db.cuhk_cufs
+    - bob.db.cuhk_cufsf
     - bob.db.frgc
     - bob.db.fv3d
     - bob.db.gbu
     - bob.db.hci_tagging
     - bob.db.ijba
+    - bob.db.ijbc
     - bob.db.iris
     - bob.db.kboc16
     - bob.db.lfw
     - bob.db.livdet2013
+    - bob.db.maskattack
     - bob.db.mnist
     - bob.db.mobio
     - bob.db.msu_mfsd_mod
     - bob.db.multipie
+    - bob.db.nist_sre12
+    - bob.db.nivl
     - bob.db.oulunpu
     - bob.db.pericrosseye
+    - bob.db.pola_thermal
     - bob.db.putvein
     - bob.db.replay
     - bob.db.replaymobile
@@ -72,6 +80,7 @@ requirements:
     - bob.io.matlab
     - bob.io.video
     - bob.ip.base
+    - bob.ip.caffe_extractor
     - bob.ip.color
     - bob.ip.dlib
     - bob.ip.draw
@@ -79,10 +88,12 @@ requirements:
     - bob.ip.facelandmarks
     - bob.ip.flandmark
     - bob.ip.gabor
+    - bob.ip.mtcnn
     - bob.ip.optflow.hornschunck
     - bob.ip.optflow.liu
     - bob.ip.qualitymeasure
     - bob.ip.skincolorfilter
+    - bob.ip.tensorflow_extractor
     - bob.learn.activation
     - bob.learn.boosting
     - bob.learn.em
@@ -95,6 +106,7 @@ requirements:
     - bob.pad.face
     - bob.pad.vein
     - bob.pad.voice
+    - bob.rppg.base
     - bob.sp
     - gridtk
 

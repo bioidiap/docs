@@ -11,6 +11,7 @@ Adding a new package
 To add a new package:
 
 * Make sure the package is **public** first. Do not add private packages here.
+* Make sure the package is in https://gitlab.idiap.ch/bob/bob first.
 * Add it in ``conda/meta.yaml`` and ``requirements.txt``.
 * Add it in ``doc/index.rst`` (you need to add it in several places in this file).
 * Add it in ``doc/readme_index.rst``.

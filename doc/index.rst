@@ -42,6 +42,7 @@ Signal, Audio, Image and Video Processing
 * :ref:`bob.ip.skincolorfilter`
 * :ref:`bob.ip.mtcnn`
 * :ref:`bob.ip.caffe_extractor`
+* :ref:`bob.ip.tensorflow_extractor`
 
 Machine Learning
 ----------------
@@ -75,8 +76,9 @@ Biometric Recognition
 * :ref:`bob.bio.vein`
 * :ref:`bob.bio.video`
 * :ref:`bob.bio.gmm`
-* :ref:`bob.bio.caffe_face`
+* :ref:`bob.ip.caffe_extractor`
 * :ref:`bob.ip.tensorflow_extractor`
+* :ref:`bob.bio.caffe_face`
 
 
 Presentation Attack Detection (anti-spoofing)
@@ -117,19 +119,18 @@ Database Interfaces
 * :ref:`bob.db.fv3d`
 * :ref:`bob.db.gbu`
 * :ref:`bob.db.hci_tagging`
-* :ref:`bob.db.hkpu`
-* :ref:`bob.db.hmtvein`
 * :ref:`bob.db.ijba`
 * :ref:`bob.db.ijbc`
 * :ref:`bob.db.iris`
 * :ref:`bob.db.kboc16`
 * :ref:`bob.db.lfw`
 * :ref:`bob.db.livdet2013`
-* :ref:`bob.db.mmcbnu6k`
+* :ref:`bob.db.maskattack`
 * :ref:`bob.db.mnist`
 * :ref:`bob.db.mobio`
 * :ref:`bob.db.msu_mfsd_mod`
 * :ref:`bob.db.multipie`
+* :ref:`bob.db.nist_sre12`
 * :ref:`bob.db.nivl`
 * :ref:`bob.db.oulunpu`
 * :ref:`bob.db.pericrosseye`
@@ -138,7 +139,6 @@ Database Interfaces
 * :ref:`bob.db.replay`
 * :ref:`bob.db.replaymobile`
 * :ref:`bob.db.scface`
-* :ref:`bob.db.thufvdt`
 * :ref:`bob.db.utfvp`
 * :ref:`bob.db.uvad`
 * :ref:`bob.db.verafinger`
@@ -189,19 +189,18 @@ Index of all Packages
    bob.db.fv3d <bob.db.fv3d/doc/index.rst>
    bob.db.gbu <bob.db.gbu/doc/index.rst>
    bob.db.hci_tagging <bob.db.hci_tagging/doc/index.rst>
-   bob.db.hkpu <bob.db.hkpu/README.rst>
-   bob.db.hmtvein <bob.db.hmtvein/README.rst>
    bob.db.ijba <bob.db.ijba/doc/index.rst>
-   bob.db.ijbc <bob.db.ijbc/README.rst>   
+   bob.db.ijbc <bob.db.ijbc/README.rst>
    bob.db.iris <bob.db.iris/doc/index.rst>
    bob.db.kboc16 <bob.db.kboc16/doc/index.rst>
    bob.db.lfw <bob.db.lfw/doc/index.rst>
    bob.db.livdet2013 <bob.db.livdet2013/doc/index.rst>
-   bob.db.mmcbnu6k <bob.db.mmcbnu6k/README.rst>
+   bob.db.maskattack <bob.db./doc/index.rst>
    bob.db.mnist <bob.db.mnist/doc/index.rst>
    bob.db.mobio <bob.db.mobio/doc/index.rst>
    bob.db.msu_mfsd_mod <bob.db.msu_mfsd_mod/doc/index.rst>
    bob.db.multipie <bob.db.multipie/doc/index.rst>
+   bob.db.nist_sre12 <bob.db.nist_sre12/doc/index.rst>
    bob.db.nivl <bob.db.nivl/README.rst>
    bob.db.oulunpu <bob.db.oulunpu/doc/index.rst>
    bob.db.pericrosseye <bob.db.pericrosseye/doc/index.rst>
@@ -210,7 +209,6 @@ Index of all Packages
    bob.db.replay <bob.db.replay/doc/index.rst>
    bob.db.replaymobile <bob.db.replaymobile/doc/index.rst>
    bob.db.scface <bob.db.scface/doc/index.rst>
-   bob.db.thufvdt <bob.db.thufvdt/README.rst>
    bob.db.utfvp <bob.db.utfvp/doc/index.rst>
    bob.db.uvad <bob.db.uvad/doc/index.rst>
    bob.db.verafinger <bob.db.verafinger/doc/index.rst>

@@ -91,3 +91,17 @@ README of all Packages
    bob.pad.voice <bob.pad.voice/README.rst>
    bob.sp <bob.sp/README.rst>
    gridtk <gridtk/README.rst>
+   bob.ip.mtcnn <bob.ip.mtcnn/README.rst>
+   bob.db.ijbc <bob.db.ijbc/README.rst>
+   bob.db.hkpu <bob.db.hkpu/README.rst>
+   bob.db.thufvdt <bob.db.thufvdt/README.rst>
+   bob.db.mmcbnu6k <bob.db.mmcbnu6k/README.rst>
+   bob.db.hmtvein <bob.db.hmtvein/README.rst>
+   bob.rppg.base <bob.rppg.base/README.rst>
+   bob.db.cbsr_nir_vis_2 <bob.db.cbsr_nir_vis_2/README.rst>
+   bob.db.nivl <bob.db.nivl/README.rst>
+   bob.db.pola_thermal<bob.db.pola_thermal/README.rst>
+   bob.db.cuhk_cufsf <bob.db.cuhk_cufsf/README.rst>
+   bob.ip.tensorflow_extractor <bob.ip.tensorflow_extractor/README.rst>
+   bob.ip.caffe_extractor <bob.ip.caffe_extractor/README.rst>
+   bob.bio.caffe_face <bob.bio.caffe_face/README.rst>

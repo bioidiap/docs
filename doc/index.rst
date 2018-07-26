@@ -41,6 +41,7 @@ Signal, Audio, Image and Video Processing
 * :ref:`bob.ip.qualitymeasure`
 * :ref:`bob.ip.skincolorfilter`
 * :ref:`bob.ip.mtcnn`
+* :ref:`bob.ip.caffe_extractor`
 
 Machine Learning
 ----------------

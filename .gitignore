@@ -94,3 +94,17 @@ doc/gridtk/
 doc/nitpick-exceptions.txt
 eggs/
 sphinx/
+doc/bob.ip.mtcnn
+doc/bob.db.ijbc
+doc/bob.db.hkpu
+doc/bob.db.thufvdt
+doc/bob.db.mmcbnu6k
+doc/bob.db.hmtvein
+doc/bob.rppg.base
+doc/bob.db.cbsr_nir_vis_2
+doc/bob.db.nivl
+doc/bob.db.pola_thermal
+doc/bob.db.cuhk_cufsf
+doc/bob.ip.tensorflow_extractor
+doc/bob.ip.caffe_extractor
+doc/bob.bio.caffe_face

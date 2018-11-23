@@ -74,6 +74,7 @@ requirements:
     - bob.db.xm2vts
     - bob.db.youtube
     - bob.extension
+    - bob.fusion.base
     - bob.io.audio
     - bob.io.base
     - bob.io.image

@@ -79,6 +79,7 @@ Biometric Recognition
 * :ref:`bob.ip.caffe_extractor`
 * :ref:`bob.ip.tensorflow_extractor`
 * :ref:`bob.bio.caffe_face`
+* :ref:`bob.fusion.base`
 
 
 Presentation Attack Detection (anti-spoofing)
@@ -88,6 +89,7 @@ Presentation Attack Detection (anti-spoofing)
 * :ref:`bob.pad.face`
 * :ref:`bob.pad.vein`
 * :ref:`bob.pad.voice`
+* :ref:`bob.fusion.base`
 
 
 Remote Heart Rate Measurement
@@ -218,6 +220,7 @@ Index of all Packages
    bob.db.xm2vts <bob.db.xm2vts/doc/index.rst>
    bob.db.youtube <bob.db.youtube/doc/index.rst>
    bob.extension <bob.extension/doc/index.rst>
+   bob.fusion.base <bob.fusion.base/doc/index.rst>
    bob.io.audio <bob.io.audio/doc/index.rst>
    bob.io.base <bob.io.base/doc/index.rst>
    bob.io.image <bob.io.image/doc/index.rst>

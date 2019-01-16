@@ -68,6 +68,7 @@ README of all Packages
    bob.db.xm2vts <bob.db.xm2vts/README.rst>
    bob.db.youtube <bob.db.youtube/README.rst>
    bob.extension <bob.extension/README.rst>
+   bob.fusion.base <bob.fusion.base/README.rst>
    bob.io.audio <bob.io.audio/README.rst>
    bob.io.base <bob.io.base/README.rst>
    bob.io.image <bob.io.image/README.rst>

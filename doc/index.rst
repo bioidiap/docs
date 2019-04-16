@@ -37,7 +37,6 @@ Signal, Audio, Image and Video Processing
 * :ref:`bob.ip.optflow.liu`
 * :ref:`bob.ip.optflow.hornschunck`
 * :ref:`bob.ip.flandmark`
-* :ref:`bob.ip.dlib`
 * :ref:`bob.ip.qualitymeasure`
 * :ref:`bob.ip.skincolorfilter`
 * :ref:`bob.ip.mtcnn`
@@ -229,10 +228,8 @@ Index of all Packages
    bob.ip.base <bob.ip.base/doc/index.rst>
    bob.ip.caffe_extractor <bob.ip.caffe_extractor/README.rst>
    bob.ip.color <bob.ip.color/doc/index.rst>
-   bob.ip.dlib <bob.ip.dlib/doc/index.rst>
    bob.ip.draw <bob.ip.draw/doc/index.rst>
    bob.ip.facedetect <bob.ip.facedetect/doc/index.rst>
-   bob.ip.facelandmarks <bob.ip.facelandmarks/doc/index.rst>
    bob.ip.flandmark <bob.ip.flandmark/doc/index.rst>
    bob.ip.gabor <bob.ip.gabor/doc/index.rst>
    bob.ip.mtcnn <bob.ip.mtcnn/README.rst>

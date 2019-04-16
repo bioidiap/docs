@@ -71,10 +71,8 @@ doc/bob.io.video/
 doc/bob.ip.base/
 doc/bob.ip.caffe_extractor/
 doc/bob.ip.color/
-doc/bob.ip.dlib/
 doc/bob.ip.draw/
 doc/bob.ip.facedetect/
-doc/bob.ip.facelandmarks/
 doc/bob.ip.flandmark/
 doc/bob.ip.gabor/
 doc/bob.ip.mtcnn/

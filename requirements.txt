@@ -68,10 +68,8 @@ bob.io.video
 bob.ip.base
 bob.ip.caffe_extractor
 bob.ip.color
-bob.ip.dlib
 bob.ip.draw
 bob.ip.facedetect
-bob.ip.facelandmarks
 bob.ip.flandmark
 bob.ip.gabor
 bob.ip.mtcnn

@@ -77,10 +77,8 @@ README of all Packages
    bob.ip.base <bob.ip.base/README.rst>
    bob.ip.caffe_extractor <bob.ip.caffe_extractor/README.rst>
    bob.ip.color <bob.ip.color/README.rst>
-   bob.ip.dlib <bob.ip.dlib/README.rst>
    bob.ip.draw <bob.ip.draw/README.rst>
    bob.ip.facedetect <bob.ip.facedetect/README.rst>
-   bob.ip.facelandmarks <bob.ip.facelandmarks/README.rst>
    bob.ip.flandmark <bob.ip.flandmark/README.rst>
    bob.ip.gabor <bob.ip.gabor/README.rst>
    bob.ip.mtcnn <bob.ip.mtcnn/README.rst>

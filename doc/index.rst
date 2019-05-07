@@ -148,6 +148,7 @@ Database Interfaces
 * :ref:`bob.db.wine`
 * :ref:`bob.db.xm2vts`
 * :ref:`bob.db.youtube`
+* :ref:`bob.db.fargo`
 
 
 
@@ -218,6 +219,7 @@ Index of all Packages
    bob.db.wine <bob.db.wine/doc/index.rst>
    bob.db.xm2vts <bob.db.xm2vts/doc/index.rst>
    bob.db.youtube <bob.db.youtube/doc/index.rst>
+   bob.db.fargo <bob.db.fargo/doc/index.rst>
    bob.extension <bob.extension/doc/index.rst>
    bob.fusion.base <bob.fusion.base/doc/index.rst>
    bob.io.audio <bob.io.audio/doc/index.rst>

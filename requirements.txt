@@ -58,6 +58,7 @@ bob.db.voxforge
 bob.db.wine
 bob.db.xm2vts
 bob.db.youtube
+bob.db.fargo
 bob.extension
 bob.fusion.base
 bob.io.audio

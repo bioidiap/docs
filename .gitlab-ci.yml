@@ -133,23 +133,3 @@ deploy_stable:
   except:
     - branches
 
-
-pypi:
-  stage: pypi
-  environment: pypi
-  only:
-    - /^v\d+\.\d+\.\d+([abc]\d*)?$/  # PEP-440 compliant version (tags)
-  except:
-    - branches
-  script:
-    - curl --silent "${BOOTSTRAP}" --output "bootstrap.py"
-    - python3 bootstrap.py -vv channel base
-    - source ${CONDA_ROOT}/etc/profile.d/conda.sh
-    - conda activate base
-    - bdt ci pypi -vv dist/*.zip
-    - bdt ci clean -vv
-  dependencies:
-    - build_linux_36
-  tags:
-    - docker
-

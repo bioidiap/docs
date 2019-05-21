@@ -34,6 +34,7 @@ Signal, Audio, Image and Video Processing
 * :ref:`bob.ip.draw`
 * :ref:`bob.ip.gabor`
 * :ref:`bob.ip.facedetect`
+* :ref:`bob.ip.facelandmarks`
 * :ref:`bob.ip.optflow.liu`
 * :ref:`bob.ip.optflow.hornschunck`
 * :ref:`bob.ip.flandmark`

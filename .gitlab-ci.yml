@@ -1,31 +1,33 @@
-# This build file uses template features from YAML so it is generic enough for
-# any Bob project. Don't modify it unless you know what you're doing.
+# This YAML file contains descriptions for the CI of most of our Bob/BEAT/BATL
+# packages - do **not** modify it unless you know what you're doing (and up
+# to!)
 
 # Definition of global variables (all stages)
 variables:
+  PYTHONUNBUFFERED: "1"
   CONDA_ROOT: "${CI_PROJECT_DIR}/miniconda"
+  BOOTSTRAP: "https://gitlab.idiap.ch/bob/bob.devtools/raw/master/bob/devtools/bootstrap.py"
 
 
 # Definition of our build pipeline order
 stages:
   - build
   - deploy
+  - pypi
 
 
 # Build targets
 .build_template: &build_job
   stage: build
   before_script:
-    - mkdir _ci
-    - curl --silent "https://gitlab.idiap.ch/bob/bob.admin/raw/master/gitlab/install.sh" > _ci/install.sh
-    - chmod 755 _ci/install.sh
-    - ./_ci/install.sh _ci master #installs ci support scripts
-    - ./_ci/before_build.sh
     - ./before_build.sh
   script:
-    - ./_ci/build.sh
-  after_script:
-    - ./_ci/after_build.sh
+    - curl --silent "${BOOTSTRAP}" --output "bootstrap.py"
+    - python3 bootstrap.py -vv channel base
+    - source ${CONDA_ROOT}/etc/profile.d/conda.sh
+    - conda activate base
+    - bdt ci build ./conda -vv
+    - bdt ci clean -vv
   cache: &build_caches
     paths:
       - miniconda.sh
@@ -41,7 +43,6 @@ stages:
   artifacts:
     expire_in: 1 week
     paths:
-      - _ci/
       - ${CONDA_ROOT}/conda-bld/linux-64/*.tar.bz2
   cache:
     <<: *build_caches
@@ -54,25 +55,67 @@ build_linux_36:
     GITLAB_CHECKOUT_STRATEGY: "https://gitlab-ci-token:${CI_BUILD_TOKEN}@gitlab.idiap.ch/"
     PYTHON_VERSION: "3.6"
     BUILD_EGG: "true"
+  script:
+    - curl --silent "${BOOTSTRAP}" --output "bootstrap.py"
+    - python3 bootstrap.py -vv channel base
+    - source ${CONDA_ROOT}/etc/profile.d/conda.sh
+    - conda activate base
+    - bdt ci build -vv
+    - bdt ci clean -vv
   artifacts:
     expire_in: 1 week
     paths:
-      - _ci/
+      - dist/*.zip
       - sphinx
       - ${CONDA_ROOT}/conda-bld/linux-64/*.tar.bz2
+
+
+# Test targets (not normally used)
+.test_template: &test_job
+  stage: test
+  script:
+    - curl --silent "${BOOTSTRAP}" --output "bootstrap.py"
+    - python3 bootstrap.py -vv channel base
+    - source ${CONDA_ROOT}/etc/profile.d/conda.sh
+    - conda activate base
+    - bdt ci test -vv
+    - bdt ci clean -vv
+  cache: &test_caches
+    paths:
+      - miniconda.sh
+      - ${CONDA_ROOT}/pkgs/*.tar.bz2
+      - ${CONDA_ROOT}/pkgs/urls.txt
+
+
+.test_linux_template: &linux_test_job
+  <<: *test_job
+  tags:
+    - docker
+  image: continuumio/conda-concourse-ci
+  cache:
+    <<: *test_caches
+    key: "linux-cache"
 
 
 # Deploy targets
 .deploy_template: &deploy_job
   stage: deploy
-  before_script:
-    - ./_ci/install.sh _ci master #updates ci support scripts
   script:
-    - ./_ci/deploy.sh
+    - curl --silent "${BOOTSTRAP}" --output "bootstrap.py"
+    - python3 bootstrap.py channel base
+    - source ${CONDA_ROOT}/etc/profile.d/conda.sh
+    - conda activate base
+    - bdt ci deploy -vv
+    - bdt ci clean -vv
   dependencies:
     - build_linux_36
   tags:
-    - deployer
+    - docker
+  cache: &build_caches
+    paths:
+      - miniconda.sh
+      - ${CONDA_ROOT}/pkgs/*.tar.bz2
+      - ${CONDA_ROOT}/pkgs/urls.txt
 
 
 deploy_beta:
@@ -89,3 +132,24 @@ deploy_stable:
     - /^v\d+\.\d+\.\d+([abc]\d*)?$/  # PEP-440 compliant version (tags)
   except:
     - branches
+
+
+pypi:
+  stage: pypi
+  environment: pypi
+  only:
+    - /^v\d+\.\d+\.\d+([abc]\d*)?$/  # PEP-440 compliant version (tags)
+  except:
+    - branches
+  script:
+    - curl --silent "${BOOTSTRAP}" --output "bootstrap.py"
+    - python3 bootstrap.py -vv channel base
+    - source ${CONDA_ROOT}/etc/profile.d/conda.sh
+    - conda activate base
+    - bdt ci pypi -vv dist/*.zip
+    - bdt ci clean -vv
+  dependencies:
+    - build_linux_36
+  tags:
+    - docker
+

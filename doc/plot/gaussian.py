@@ -1,1 +1,1 @@
-../bob.ip.base/doc/plot/gaussian.py
+../bob/bob.ip.base/doc/plot/gaussian.py

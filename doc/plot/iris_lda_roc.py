@@ -1,1 +1,1 @@
-../bob/doc/plot/iris_lda_roc.py
+../bob/bob/doc/plot/iris_lda_roc.py

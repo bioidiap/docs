@@ -1,1 +1,1 @@
-../bob.ip.dlib/doc/plot/plot_align_faces.py
+../bob/bob.ip.dlib/doc/plot/plot_align_faces.py

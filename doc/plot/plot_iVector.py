@@ -1,1 +1,1 @@
-../bob.learn.em/doc/plot/plot_iVector.py
+../bob/bob.learn.em/doc/plot/plot_iVector.py

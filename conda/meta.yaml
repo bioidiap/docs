@@ -84,7 +84,7 @@ requirements:
     - bob.ip.base
     - bob.ip.caffe_extractor
     - bob.ip.color
-    - bob.ip.dlib    
+    - bob.ip.dlib
     - bob.ip.draw
     - bob.ip.facedetect
     - bob.ip.facelandmarks

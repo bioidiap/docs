@@ -1,1 +1,1 @@
-../bob.ip.caffe_extractor/doc/plot/convolve.py
+../bob/bob.ip.caffe_extractor/doc/plot/convolve.py

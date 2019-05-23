@@ -1,1 +1,1 @@
-../bob.learn.em/doc/plot/plot_kmeans.py
+../bob/bob.learn.em/doc/plot/plot_kmeans.py

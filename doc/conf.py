@@ -33,7 +33,7 @@ extensions = [
 plot_basedir = None
 
 # Be picky about warnings
-nitpicky = True
+nitpicky = False
 
 # Ignores stuff we can't easily resolve on other project's sphinx manuals
 nitpick_ignore = []
@@ -129,7 +129,7 @@ pygments_style = 'sphinx'
 
 # Some variables which are useful for generated material
 project_variable = project.replace('.', '_')
-short_description = u'Building of Python/C++ extensions for Bob'
+short_description = u'Bob (All Packages)'
 owner = [u'Idiap Research Institute']
 
 

@@ -199,7 +199,7 @@ Index of all Packages
    bob.db.kboc16 <bob/bob.db.kboc16/doc/index.rst>
    bob.db.lfw <bob/bob.db.lfw/doc/index.rst>
    bob.db.livdet2013 <bob/bob.db.livdet2013/doc/index.rst>
-   bob.db.maskattack <bob/bob.db./doc/index.rst>
+   bob.db.maskattack <bob/bob.db.maskattack/doc/index.rst>
    bob.db.mnist <bob/bob.db.mnist/doc/index.rst>
    bob.db.mobio <bob/bob.db.mobio/doc/index.rst>
    bob.db.msu_mfsd_mod <bob/bob.db.msu_mfsd_mod/doc/index.rst>

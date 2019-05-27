@@ -164,7 +164,7 @@ Index of all Packages
    bob <bob/bob/doc/index.rst>
    bob.ap <bob/bob.ap/doc/index.rst>
    bob.bio.base <bob/bob.bio.base/doc/index.rst>
-   bob.bio.caffe_face <bob/bob.bio.caffe_face/README.rst>
+   bob.bio.caffe_face <bob/bob.bio.caffe_face/doc/index.rst>
    bob.bio.face <bob/bob.bio.face/doc/index.rst>
    bob.bio.gmm <bob/bob.bio.gmm/doc/index.rst>
    bob.bio.spear <bob/bob.bio.spear/doc/index.rst>
@@ -185,16 +185,16 @@ Index of all Packages
    bob.db.biosecurid.face <bob/bob.db.biosecurid.face/doc/index.rst>
    bob.db.casme2 <bob/bob.db.casme2/doc/index.rst>
    bob.db.caspeal <bob/bob.db.caspeal/doc/index.rst>
-   bob.db.cbsr_nir_vis_2 <bob/bob.db.cbsr_nir_vis_2/README.rst>
+   bob.db.cbsr_nir_vis_2 <bob/bob.db.cbsr_nir_vis_2/doc/index.rst>
    bob.db.cohface <bob/bob.db.cohface/doc/index.rst>
    bob.db.cuhk_cufs <bob/bob.db.cuhk_cufs/doc/index.rst>
-   bob.db.cuhk_cufsf <bob/bob.db.cuhk_cufsf/README.rst>
+   bob.db.cuhk_cufsf <bob/bob.db.cuhk_cufsf/doc/index.rst>
    bob.db.frgc <bob/bob.db.frgc/doc/index.rst>
    bob.db.fv3d <bob/bob.db.fv3d/doc/index.rst>
    bob.db.gbu <bob/bob.db.gbu/doc/index.rst>
    bob.db.hci_tagging <bob/bob.db.hci_tagging/doc/index.rst>
    bob.db.ijba <bob/bob.db.ijba/doc/index.rst>
-   bob.db.ijbc <bob/bob.db.ijbc/README.rst>
+   bob.db.ijbc <bob/bob.db.ijbc/doc/index.rst>
    bob.db.iris <bob/bob.db.iris/doc/index.rst>
    bob.db.kboc16 <bob/bob.db.kboc16/doc/index.rst>
    bob.db.lfw <bob/bob.db.lfw/doc/index.rst>
@@ -205,10 +205,10 @@ Index of all Packages
    bob.db.msu_mfsd_mod <bob/bob.db.msu_mfsd_mod/doc/index.rst>
    bob.db.multipie <bob/bob.db.multipie/doc/index.rst>
    bob.db.nist_sre12 <bob/bob.db.nist_sre12/doc/index.rst>
-   bob.db.nivl <bob/bob.db.nivl/README.rst>
+   bob.db.nivl <bob/bob.db.nivl/doc/index.rst>
    bob.db.oulunpu <bob/bob.db.oulunpu/doc/index.rst>
    bob.db.pericrosseye <bob/bob.db.pericrosseye/doc/index.rst>
-   bob.db.pola_thermal<bob/bob.db.pola_thermal/README.rst>
+   bob.db.pola_thermal<bob/bob.db.pola_thermal/doc/index.rst>
    bob.db.putvein <bob/bob.db.putvein/doc/index.rst>
    bob.db.replay <bob/bob.db.replay/doc/index.rst>
    bob.db.replaymobile <bob/bob.db.replaymobile/doc/index.rst>
@@ -230,7 +230,7 @@ Index of all Packages
    bob.io.matlab <bob/bob.io.matlab/doc/index.rst>
    bob.io.video <bob/bob.io.video/doc/index.rst>
    bob.ip.base <bob/bob.ip.base/doc/index.rst>
-   bob.ip.caffe_extractor <bob/bob.ip.caffe_extractor/README.rst>
+   bob.ip.caffe_extractor <bob/bob.ip.caffe_extractor/doc/index.rst>
    bob.ip.color <bob/bob.ip.color/doc/index.rst>
    bob.ip.dlib <bob/bob.ip.dlib/doc/index.rst>
    bob.ip.draw <bob/bob.ip.draw/doc/index.rst>
@@ -238,11 +238,11 @@ Index of all Packages
    bob.ip.facelandmarks <bob/bob.ip.facelandmarks/doc/index.rst>
    bob.ip.flandmark <bob/bob.ip.flandmark/doc/index.rst>
    bob.ip.gabor <bob/bob.ip.gabor/doc/index.rst>
-   bob.ip.mtcnn <bob/bob.ip.mtcnn/README.rst>
+   bob.ip.mtcnn <bob/bob.ip.mtcnn/doc/index.rst>
    bob.ip.optflow.hornschunck <bob/bob.ip.optflow.hornschunck/doc/index.rst>
    bob.ip.optflow.liu <bob/bob.ip.optflow.liu/doc/index.rst>
    bob.ip.qualitymeasure <bob/bob.ip.qualitymeasure/doc/index.rst>
-   bob.ip.tensorflow_extractor <bob/bob.ip.tensorflow_extractor/README.rst>
+   bob.ip.tensorflow_extractor <bob/bob.ip.tensorflow_extractor/doc/index.rst>
    bob.ip.skincolorfilter <bob/bob.ip.skincolorfilter/doc/index.rst>
    bob.learn.activation <bob/bob.learn.activation/doc/index.rst>
    bob.learn.boosting <bob/bob.learn.boosting/doc/index.rst>
@@ -257,6 +257,6 @@ Index of all Packages
    bob.pad.vein <bob/bob.pad.vein/doc/index.rst>
    bob.pad.voice <bob/bob.pad.voice/doc/index.rst>
    bob.sp <bob/bob.sp/doc/index.rst>
-   bob.rppg.base <bob/bob.rppg.base/README.rst>
+   bob.rppg.base <bob/bob.rppg.base/doc/index.rst>
    gridtk <bob/gridtk/doc/index.rst>
    readme_index.rst

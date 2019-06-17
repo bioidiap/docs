@@ -26,6 +26,7 @@ bob/bob.db.cbsr_nir_vis_2
 bob/bob.db.cohface
 bob/bob.db.cuhk_cufs
 bob/bob.db.cuhk_cufsf
+bob/bob.db.fargo
 bob/bob.db.frgc
 bob/bob.db.fv3d
 bob/bob.db.gbu
@@ -58,7 +59,6 @@ bob/bob.db.voxforge
 bob/bob.db.wine
 bob/bob.db.xm2vts
 bob/bob.db.youtube
-bob/bob.db.fargo
 bob/bob.extension
 bob/bob.fusion.base
 bob/bob.io.audio
@@ -87,6 +87,8 @@ bob/bob.learn.em
 bob/bob.learn.libsvm
 bob/bob.learn.linear
 bob/bob.learn.mlp
+bob/bob.learn.pytorch
+bob/bob.learn.tensorflow
 bob/bob.math
 bob/bob.measure
 bob/bob.pad.base

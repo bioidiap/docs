@@ -55,6 +55,8 @@ Machine Learning
 * :ref:`bob.learn.libsvm`
 * :ref:`bob.learn.em`
 * :ref:`bob.learn.boosting`
+* :ref:`bob.learn.tensorflow`
+* :ref:`bob.learn.pytorch`
 
 Modules for Developers
 ----------------------
@@ -250,6 +252,8 @@ Index of all Packages
    bob.learn.libsvm <bob/bob.learn.libsvm/doc/index.rst>
    bob.learn.linear <bob/bob.learn.linear/doc/index.rst>
    bob.learn.mlp <bob/bob.learn.mlp/doc/index.rst>
+   bob.learn.pytorch <bob/bob.learn.pytorch/doc/index.rst>
+   bob.learn.tensorflow <bob/bob.learn.tensorflow/doc/index.rst>
    bob.math <bob/bob.math/doc/index.rst>
    bob.measure <bob/bob.measure/doc/index.rst>
    bob.pad.base <bob/bob.pad.base/doc/index.rst>

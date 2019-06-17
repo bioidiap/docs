@@ -1,7 +1,6 @@
 *.swo
 *.swp
 *~
-doc/bob/
 doc/bob.ap/
 doc/bob.bio.base/
 doc/bob.bio.caffe_face/
@@ -29,6 +28,7 @@ doc/bob.db.cbsr_nir_vis_2/
 doc/bob.db.cohface/
 doc/bob.db.cuhk_cufs/
 doc/bob.db.cuhk_cufsf/
+doc/bob.db.fargo/
 doc/bob.db.frgc/
 doc/bob.db.fv3d/
 doc/bob.db.gbu/
@@ -61,7 +61,6 @@ doc/bob.db.voxforge/
 doc/bob.db.wine/
 doc/bob.db.xm2vts/
 doc/bob.db.youtube/
-doc/bob.db.fargo/
 doc/bob.extension/
 doc/bob.fusion.base/
 doc/bob.io.audio/
@@ -90,6 +89,8 @@ doc/bob.learn.em/
 doc/bob.learn.libsvm/
 doc/bob.learn.linear/
 doc/bob.learn.mlp/
+doc/bob.learn.pytorch/
+doc/bob.learn.tensorflow/
 doc/bob.math/
 doc/bob.measure/
 doc/bob.pad.base/
@@ -98,7 +99,8 @@ doc/bob.pad.vein/
 doc/bob.pad.voice/
 doc/bob.rppg.base/
 doc/bob.sp/
-doc/gridtk/
+doc/bob/
 doc/extra-intersphinx.txt
+doc/gridtk/
 doc/nitpick-exceptions.txt
 sphinx/

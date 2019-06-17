@@ -102,6 +102,8 @@ requirements:
     - bob.learn.libsvm
     - bob.learn.linear
     - bob.learn.mlp
+    - bob.learn.pytorch
+    - bob.learn.tensorflow
     - bob.math
     - bob.measure
     - bob.pad.base

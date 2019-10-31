@@ -44,6 +44,8 @@ Signal, Audio, Image and Video Processing
 * :ref:`bob.ip.mtcnn`
 * :ref:`bob.ip.caffe_extractor`
 * :ref:`bob.ip.tensorflow_extractor`
+* :ref:`bob.ip.binseg`
+
 
 Machine Learning
 ----------------
@@ -155,6 +157,15 @@ Database Interfaces
 * :ref:`bob.db.xm2vts`
 * :ref:`bob.db.youtube`
 * :ref:`bob.db.fargo`
+* :ref:`bob.db.drive`
+* :ref:`bob.db.stare`
+* :ref:`bob.db.chasedb1`
+* :ref:`bob.db.iostar`
+* :ref:`bob.db.hrf`
+* :ref:`bob.db.rimoner3`
+* :ref:`bob.db.drionsdb`
+* :ref:`bob.db.refuge`
+* :ref:`bob.db.drishtigs1`
 
 
 
@@ -266,5 +277,15 @@ Index of all Packages
    bob.pad.voice <bob/bob.pad.voice/doc/index.rst>
    bob.sp <bob/bob.sp/doc/index.rst>
    bob.rppg.base <bob/bob.rppg.base/doc/index.rst>
+   bob.db.drive <bob/bob.db.drive/doc/index.rst>
+   bob.db.stare <bob/bob.db.stare/doc/index.rst>
+   bob.db.chasedb1 <bob/bob.db.chasedb1/doc/index.rst>
+   bob.db.iostar <bob/bob.db.iostar/doc/index.rst>
+   bob.db.hrf <bob/bob.db.hrf/doc/index.rst>
+   bob.db.rimoner3 <bob/bob.db.rimoner3/doc/index.rst>
+   bob.db.drionsdb <bob/bob.rppg.base/doc/index.rst>
+   bob.db.refuge <bob/bob.db.drionsdb/doc/index.rst>
+   bob.db.drishtigs1 <bob/bob.db.drishtigs1/doc/index.rst>
+   bob.ip.binseg <bob/bob.ip.binseg/doc/index.rst>
    gridtk <bob/gridtk/doc/index.rst>
    readme_index.rst

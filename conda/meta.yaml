@@ -115,6 +115,16 @@ requirements:
     - gridtk
     - bob.bio.htface
     - bob.bio.face_ongoing
+    - bob.db.drive
+    - bob.db.stare
+    - bob.db.chasedb1
+    - bob.db.iostar
+    - bob.db.hrf
+    - bob.db.rimoner3
+    - bob.db.drionsdb
+    - bob.db.refuge
+    - bob.db.drishtigs1
+    - bob.ip.binseg
 test:
   commands:
     - sphinx-build {{ project_dir }}/doc {{ project_dir }}/sphinx

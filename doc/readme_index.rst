@@ -106,4 +106,15 @@ README of all Packages
    bob.pad.voice <bob/bob.pad.voice/README.rst>
    bob.rppg.base <bob/bob.rppg.base/README.rst>
    bob.sp <bob/bob.sp/README.rst>
+   bob.db.drive <bob/bob.db.drive/README.rst>
+   bob.db.stare <bob/bob.db.stare/README.rst>
+   bob.db.chasedb1 <bob/bob.db.chasedb1/README.rst>
+   bob.db.iostar <bob/bob.db.iostar/README.rst>
+   bob.db.hrf <bob/bob.db.hrf/README.rst>
+   bob.db.rimoner3 <bob/bob.db.rimoner3/README.rst>
+   bob.db.drionsdb <bob/bob.rppg.base/README.rst>
+   bob.db.refuge <bob/bob.db.drionsdb/README.rst>
+   bob.db.drishtigs1 <bob/bob.db.drishtigs1/README.rst>
+   bob.ip.binseg <bob/bob.ip.binseg/index.rst>
    gridtk <bob/gridtk/README.rst>
+  

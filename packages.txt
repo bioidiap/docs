@@ -100,3 +100,13 @@ bob/bob.sp
 bob/gridtk
 bob/bob.bio.htface
 bob/bob.bio.face_ongoing
+bob/bob.db.drive
+bob/bob.db.stare
+bob/bob.db.chasedb1
+bob/bob.db.iostar
+bob/bob.db.hrf
+bob/bob.db.rimoner3
+bob/bob.db.drionsdb
+bob/bob.db.refuge
+bob/bob.db.drishtigs1
+bob/bob.ip.binseg

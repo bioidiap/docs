@@ -79,6 +79,8 @@ Biometric Recognition
 * :ref:`bob.bio.vein`
 * :ref:`bob.bio.video`
 * :ref:`bob.bio.gmm`
+* :ref:`bob.bio.face_ongoing`
+* :ref:`bob.bio.htface`
 * :ref:`bob.ip.caffe_extractor`
 * :ref:`bob.ip.tensorflow_extractor`
 * :ref:`bob.bio.caffe_face`
@@ -168,6 +170,8 @@ Index of all Packages
    bob.bio.base <bob/bob.bio.base/doc/index.rst>
    bob.bio.caffe_face <bob/bob.bio.caffe_face/doc/index.rst>
    bob.bio.face <bob/bob.bio.face/doc/index.rst>
+   bob.bio.face_ongoing <bob/bob.bio.face_ongoing/doc/index.rst>
+   bob.bio.htface <bob/bob.bio.htface/doc/index.rst>
    bob.bio.gmm <bob/bob.bio.gmm/doc/index.rst>
    bob.bio.spear <bob/bob.bio.spear/doc/index.rst>
    bob.bio.vein <bob/bob.bio.vein/doc/index.rst>

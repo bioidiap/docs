@@ -98,3 +98,5 @@ bob/bob.pad.voice
 bob/bob.rppg.base
 bob/bob.sp
 bob/gridtk
+bob/bob.bio.htface
+bob/bob.bio.face_ongoing

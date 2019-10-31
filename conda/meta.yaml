@@ -113,7 +113,8 @@ requirements:
     - bob.rppg.base
     - bob.sp
     - gridtk
-
+    - bob.bio.htface
+    - bob.bio.face_ongoing
 test:
   commands:
     - sphinx-build {{ project_dir }}/doc {{ project_dir }}/sphinx

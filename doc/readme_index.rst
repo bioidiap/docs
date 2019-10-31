@@ -12,6 +12,8 @@ README of all Packages
    bob.bio.base <bob/bob.bio.base/README.rst>
    bob.bio.caffe_face <bob/bob.bio.caffe_face/README.rst>
    bob.bio.face <bob/bob.bio.face/README.rst>
+   bob.bio.face_ongoing <bob/bob.bio.face_ongoing/README.rst>
+   bob.bio.htface <bob/bob.bio.htface/README.rst>
    bob.bio.gmm <bob/bob.bio.gmm/README.rst>
    bob.bio.spear <bob/bob.bio.spear/README.rst>
    bob.bio.vein <bob/bob.bio.vein/README.rst>

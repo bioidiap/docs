@@ -5,6 +5,8 @@ doc/bob.ap/
 doc/bob.bio.base/
 doc/bob.bio.caffe_face/
 doc/bob.bio.face/
+doc/bob.bio.face_ongoing/
+doc/bob.bio.htface/
 doc/bob.bio.gmm/
 doc/bob.bio.spear/
 doc/bob.bio.vein/

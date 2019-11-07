@@ -13,8 +13,8 @@ README of all Packages
    bob.bio.caffe_face <bob/bob.bio.caffe_face/README.rst>
    bob.bio.face <bob/bob.bio.face/README.rst>
    bob.bio.face_ongoing <bob/bob.bio.face_ongoing/README.rst>
-   bob.bio.htface <bob/bob.bio.htface/README.rst>
    bob.bio.gmm <bob/bob.bio.gmm/README.rst>
+   bob.bio.htface <bob/bob.bio.htface/README.rst>
    bob.bio.spear <bob/bob.bio.spear/README.rst>
    bob.bio.vein <bob/bob.bio.vein/README.rst>
    bob.bio.video <bob/bob.bio.video/README.rst>
@@ -34,15 +34,22 @@ README of all Packages
    bob.db.casme2 <bob/bob.db.casme2/README.rst>
    bob.db.caspeal <bob/bob.db.caspeal/README.rst>
    bob.db.cbsr_nir_vis_2 <bob/bob.db.cbsr_nir_vis_2/README.rst>
+   bob.db.chasedb1 <bob/bob.db.chasedb1/README.rst>
    bob.db.cohface <bob/bob.db.cohface/README.rst>
    bob.db.cuhk_cufs <bob/bob.db.cuhk_cufs/README.rst>
    bob.db.cuhk_cufsf <bob/bob.db.cuhk_cufsf/README.rst>
+   bob.db.drionsdb <bob/bob.db.drionsdb/README.rst>
+   bob.db.drishtigs1 <bob/bob.db.drishtigs1/README.rst>
+   bob.db.drive <bob/bob.db.drive/README.rst>
+   bob.db.fargo <bob/bob.db.fargo/README.rst>
    bob.db.frgc <bob/bob.db.frgc/README.rst>
    bob.db.fv3d <bob/bob.db.fv3d/README.rst>
    bob.db.gbu <bob/bob.db.gbu/README.rst>
    bob.db.hci_tagging <bob/bob.db.hci_tagging/README.rst>
+   bob.db.hrf <bob/bob.db.hrf/README.rst>
    bob.db.ijba <bob/bob.db.ijba/README.rst>
    bob.db.ijbc <bob/bob.db.ijbc/README.rst>
+   bob.db.iostar <bob/bob.db.iostar/README.rst>
    bob.db.iris <bob/bob.db.iris/README.rst>
    bob.db.kboc16 <bob/bob.db.kboc16/README.rst>
    bob.db.lfw <bob/bob.db.lfw/README.rst>
@@ -58,9 +65,12 @@ README of all Packages
    bob.db.pericrosseye <bob/bob.db.pericrosseye/README.rst>
    bob.db.pola_thermal <bob/bob.db.pola_thermal/README.rst>
    bob.db.putvein <bob/bob.db.putvein/README.rst>
+   bob.db.refuge <bob/bob.db.refuge/README.rst>
    bob.db.replay <bob/bob.db.replay/README.rst>
    bob.db.replaymobile <bob/bob.db.replaymobile/README.rst>
+   bob.db.rimoner3 <bob/bob.db.rimoner3/README.rst>
    bob.db.scface <bob/bob.db.scface/README.rst>
+   bob.db.stare <bob/bob.db.stare/README.rst>
    bob.db.utfvp <bob/bob.db.utfvp/README.rst>
    bob.db.uvad <bob/bob.db.uvad/README.rst>
    bob.db.verafinger <bob/bob.db.verafinger/README.rst>
@@ -69,7 +79,7 @@ README of all Packages
    bob.db.wine <bob/bob.db.wine/README.rst>
    bob.db.xm2vts <bob/bob.db.xm2vts/README.rst>
    bob.db.youtube <bob/bob.db.youtube/README.rst>
-   bob.db.fargo <bob/bob.db.fargo/README.rst>
+   bob.devtools <bob/bob.devtools/README.rst>
    bob.extension <bob/bob.extension/README.rst>
    bob.fusion.base <bob/bob.fusion.base/README.rst>
    bob.io.audio <bob/bob.io.audio/README.rst>
@@ -78,6 +88,7 @@ README of all Packages
    bob.io.matlab <bob/bob.io.matlab/README.rst>
    bob.io.video <bob/bob.io.video/README.rst>
    bob.ip.base <bob/bob.ip.base/README.rst>
+   bob.ip.binseg <bob/bob.ip.binseg/README.rst>
    bob.ip.caffe_extractor <bob/bob.ip.caffe_extractor/README.rst>
    bob.ip.color <bob/bob.ip.color/README.rst>
    bob.ip.dlib <bob/bob.ip.dlib/README.rst>
@@ -98,6 +109,8 @@ README of all Packages
    bob.learn.libsvm <bob/bob.learn.libsvm/README.rst>
    bob.learn.linear <bob/bob.learn.linear/README.rst>
    bob.learn.mlp <bob/bob.learn.mlp/README.rst>
+   bob.learn.pytorch <bob/bob.learn.pytorch/README.rst>
+   bob.learn.tensorflow <bob/bob.learn.tensorflow/README.rst>
    bob.math <bob/bob.math/README.rst>
    bob.measure <bob/bob.measure/README.rst>
    bob.pad.base <bob/bob.pad.base/README.rst>
@@ -106,15 +119,5 @@ README of all Packages
    bob.pad.voice <bob/bob.pad.voice/README.rst>
    bob.rppg.base <bob/bob.rppg.base/README.rst>
    bob.sp <bob/bob.sp/README.rst>
-   bob.db.drive <bob/bob.db.drive/README.rst>
-   bob.db.stare <bob/bob.db.stare/README.rst>
-   bob.db.chasedb1 <bob/bob.db.chasedb1/README.rst>
-   bob.db.iostar <bob/bob.db.iostar/README.rst>
-   bob.db.hrf <bob/bob.db.hrf/README.rst>
-   bob.db.rimoner3 <bob/bob.db.rimoner3/README.rst>
-   bob.db.drionsdb <bob/bob.rppg.base/README.rst>
-   bob.db.refuge <bob/bob.db.drionsdb/README.rst>
-   bob.db.drishtigs1 <bob/bob.db.drishtigs1/README.rst>
-   bob.ip.binseg <bob/bob.ip.binseg/index.rst>
    gridtk <bob/gridtk/README.rst>
-  
+

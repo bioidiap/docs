@@ -12,13 +12,15 @@ requirements:
   run:
     - python
     - setuptools
-    # this should be the same as requirements.txt
+    # this should be the same as packages.txt
     - bob
     - bob.ap
     - bob.bio.base
     - bob.bio.caffe_face
     - bob.bio.face
+    - bob.bio.face_ongoing
     - bob.bio.gmm
+    - bob.bio.htface
     - bob.bio.spear
     - bob.bio.vein
     - bob.bio.video
@@ -38,15 +40,22 @@ requirements:
     - bob.db.casme2
     - bob.db.caspeal
     - bob.db.cbsr_nir_vis_2
+    - bob.db.chasedb1
     - bob.db.cohface
     - bob.db.cuhk_cufs
     - bob.db.cuhk_cufsf
+    - bob.db.drionsdb
+    - bob.db.drishtigs1
+    - bob.db.drive
+    - bob.db.fargo
     - bob.db.frgc
     - bob.db.fv3d
     - bob.db.gbu
     - bob.db.hci_tagging
+    - bob.db.hrf
     - bob.db.ijba
     - bob.db.ijbc
+    - bob.db.iostar
     - bob.db.iris
     - bob.db.kboc16
     - bob.db.lfw
@@ -62,9 +71,12 @@ requirements:
     - bob.db.pericrosseye
     - bob.db.pola_thermal
     - bob.db.putvein
+    - bob.db.refuge
     - bob.db.replay
     - bob.db.replaymobile
+    - bob.db.rimoner3
     - bob.db.scface
+    - bob.db.stare
     - bob.db.utfvp
     - bob.db.uvad
     - bob.db.verafinger
@@ -73,7 +85,7 @@ requirements:
     - bob.db.wine
     - bob.db.xm2vts
     - bob.db.youtube
-    - bob.db.fargo
+    - bob.devtools
     - bob.extension
     - bob.fusion.base
     - bob.io.audio
@@ -82,6 +94,7 @@ requirements:
     - bob.io.matlab
     - bob.io.video
     - bob.ip.base
+    - bob.ip.binseg
     - bob.ip.caffe_extractor
     - bob.ip.color
     - bob.ip.dlib
@@ -113,18 +126,6 @@ requirements:
     - bob.rppg.base
     - bob.sp
     - gridtk
-    - bob.bio.htface
-    - bob.bio.face_ongoing
-    - bob.db.drive
-    - bob.db.stare
-    - bob.db.chasedb1
-    - bob.db.iostar
-    - bob.db.hrf
-    - bob.db.rimoner3
-    - bob.db.drionsdb
-    - bob.db.refuge
-    - bob.db.drishtigs1
-    - bob.ip.binseg
 test:
   commands:
     - sphinx-build {{ project_dir }}/doc {{ project_dir }}/sphinx

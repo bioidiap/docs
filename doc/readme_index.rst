@@ -10,7 +10,6 @@ README of all Packages
    bob <bob/bob/README.rst>
    bob.ap <bob/bob.ap/README.rst>
    bob.bio.base <bob/bob.bio.base/README.rst>
-   bob.bio.caffe_face <bob/bob.bio.caffe_face/README.rst>
    bob.bio.face <bob/bob.bio.face/README.rst>
    bob.bio.face_ongoing <bob/bob.bio.face_ongoing/README.rst>
    bob.bio.gmm <bob/bob.bio.gmm/README.rst>
@@ -89,7 +88,6 @@ README of all Packages
    bob.io.video <bob/bob.io.video/README.rst>
    bob.ip.base <bob/bob.ip.base/README.rst>
    bob.ip.binseg <bob/bob.ip.binseg/README.rst>
-   bob.ip.caffe_extractor <bob/bob.ip.caffe_extractor/README.rst>
    bob.ip.color <bob/bob.ip.color/README.rst>
    bob.ip.dlib <bob/bob.ip.dlib/README.rst>
    bob.ip.draw <bob/bob.ip.draw/README.rst>
@@ -97,7 +95,6 @@ README of all Packages
    bob.ip.facelandmarks <bob/bob.ip.facelandmarks/README.rst>
    bob.ip.flandmark <bob/bob.ip.flandmark/README.rst>
    bob.ip.gabor <bob/bob.ip.gabor/README.rst>
-   bob.ip.mtcnn <bob/bob.ip.mtcnn/README.rst>
    bob.ip.optflow.hornschunck <bob/bob.ip.optflow.hornschunck/README.rst>
    bob.ip.optflow.liu <bob/bob.ip.optflow.liu/README.rst>
    bob.ip.qualitymeasure <bob/bob.ip.qualitymeasure/README.rst>

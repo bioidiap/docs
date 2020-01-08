@@ -1,7 +1,6 @@
 bob/bob
 bob/bob.ap
 bob/bob.bio.base
-bob/bob.bio.caffe_face
 bob/bob.bio.face
 bob/bob.bio.face_ongoing
 bob/bob.bio.gmm
@@ -80,7 +79,6 @@ bob/bob.io.matlab
 bob/bob.io.video
 bob/bob.ip.base
 bob/bob.ip.binseg
-bob/bob.ip.caffe_extractor
 bob/bob.ip.color
 bob/bob.ip.dlib
 bob/bob.ip.draw
@@ -88,7 +86,6 @@ bob/bob.ip.facedetect
 bob/bob.ip.facelandmarks
 bob/bob.ip.flandmark
 bob/bob.ip.gabor
-bob/bob.ip.mtcnn
 bob/bob.ip.optflow.hornschunck
 bob/bob.ip.optflow.liu
 bob/bob.ip.qualitymeasure

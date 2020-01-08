@@ -16,7 +16,6 @@ requirements:
     - bob
     - bob.ap
     - bob.bio.base
-    - bob.bio.caffe_face
     - bob.bio.face
     - bob.bio.face_ongoing
     - bob.bio.gmm
@@ -95,7 +94,6 @@ requirements:
     - bob.io.video
     - bob.ip.base
     - bob.ip.binseg
-    - bob.ip.caffe_extractor
     - bob.ip.color
     - bob.ip.dlib
     - bob.ip.draw
@@ -103,7 +101,6 @@ requirements:
     - bob.ip.facelandmarks
     - bob.ip.flandmark
     - bob.ip.gabor
-    - bob.ip.mtcnn
     - bob.ip.optflow.hornschunck
     - bob.ip.optflow.liu
     - bob.ip.qualitymeasure

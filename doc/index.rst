@@ -71,8 +71,6 @@ Signal, Audio, Image and Video Processing
 * :ref:`bob.ip.dlib`
 * :ref:`bob.ip.qualitymeasure`
 * :ref:`bob.ip.skincolorfilter`
-* :ref:`bob.ip.mtcnn`
-* :ref:`bob.ip.caffe_extractor`
 * :ref:`bob.ip.tensorflow_extractor`
 * :ref:`bob.ip.binseg`
 
@@ -114,9 +112,7 @@ Biometric Recognition
 * :ref:`bob.bio.gmm`
 * :ref:`bob.bio.face_ongoing`
 * :ref:`bob.bio.htface`
-* :ref:`bob.ip.caffe_extractor`
 * :ref:`bob.ip.tensorflow_extractor`
-* :ref:`bob.bio.caffe_face`
 * :ref:`bob.fusion.base`
 
 
@@ -219,7 +215,6 @@ Index of all Packages
    bob <bob/bob/doc/index.rst>
    bob.ap <bob/bob.ap/doc/index.rst>
    bob.bio.base <bob/bob.bio.base/doc/index.rst>
-   bob.bio.caffe_face <bob/bob.bio.caffe_face/doc/index.rst>
    bob.bio.face <bob/bob.bio.face/doc/index.rst>
    bob.bio.face_ongoing <bob/bob.bio.face_ongoing/doc/index.rst>
    bob.bio.gmm <bob/bob.bio.gmm/doc/index.rst>
@@ -298,7 +293,6 @@ Index of all Packages
    bob.io.video <bob/bob.io.video/doc/index.rst>
    bob.ip.base <bob/bob.ip.base/doc/index.rst>
    bob.ip.binseg <bob/bob.ip.binseg/doc/index.rst>
-   bob.ip.caffe_extractor <bob/bob.ip.caffe_extractor/doc/index.rst>
    bob.ip.color <bob/bob.ip.color/doc/index.rst>
    bob.ip.dlib <bob/bob.ip.dlib/doc/index.rst>
    bob.ip.draw <bob/bob.ip.draw/doc/index.rst>
@@ -306,7 +300,6 @@ Index of all Packages
    bob.ip.facelandmarks <bob/bob.ip.facelandmarks/doc/index.rst>
    bob.ip.flandmark <bob/bob.ip.flandmark/doc/index.rst>
    bob.ip.gabor <bob/bob.ip.gabor/doc/index.rst>
-   bob.ip.mtcnn <bob/bob.ip.mtcnn/doc/index.rst>
    bob.ip.optflow.hornschunck <bob/bob.ip.optflow.hornschunck/doc/index.rst>
    bob.ip.optflow.liu <bob/bob.ip.optflow.liu/doc/index.rst>
    bob.ip.qualitymeasure <bob/bob.ip.qualitymeasure/doc/index.rst>

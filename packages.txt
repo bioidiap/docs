@@ -21,6 +21,8 @@ bob/bob.db.banca
 bob/bob.db.base
 bob/bob.db.biosecure
 bob/bob.db.biosecurid.face
+bob/bob.db.casia_fasd
+bob/bob.db.casiasurf
 bob/bob.db.casme2
 bob/bob.db.caspeal
 bob/bob.db.cbsr_nir_vis_2
@@ -42,6 +44,7 @@ bob/bob.db.ijbc
 bob/bob.db.iostar
 bob/bob.db.iris
 bob/bob.db.kboc16
+bob/bob.db.ldhf
 bob/bob.db.lfw
 bob/bob.db.livdet2013
 bob/bob.db.maskattack
@@ -60,7 +63,9 @@ bob/bob.db.replay
 bob/bob.db.replaymobile
 bob/bob.db.rimoner3
 bob/bob.db.scface
+bob/bob.db.siw
 bob/bob.db.stare
+bob/bob.db.swan
 bob/bob.db.utfvp
 bob/bob.db.uvad
 bob/bob.db.verafinger

@@ -154,6 +154,8 @@ Interfaces
 * :ref:`bob.db.banca`
 * :ref:`bob.db.biosecure`
 * :ref:`bob.db.biosecurid.face`
+* :ref:`bob.db.casia_fasd`
+* :ref:`bob.db.casiasurf`
 * :ref:`bob.db.casme2`
 * :ref:`bob.db.caspeal`
 * :ref:`bob.db.cbsr_nir_vis_2`
@@ -175,6 +177,7 @@ Interfaces
 * :ref:`bob.db.iostar`
 * :ref:`bob.db.iris`
 * :ref:`bob.db.kboc16`
+* :ref:`bob.db.ldhf`
 * :ref:`bob.db.lfw`
 * :ref:`bob.db.livdet2013`
 * :ref:`bob.db.maskattack`
@@ -193,7 +196,9 @@ Interfaces
 * :ref:`bob.db.replaymobile`
 * :ref:`bob.db.rimoner3`
 * :ref:`bob.db.scface`
+* :ref:`bob.db.siw`
 * :ref:`bob.db.stare`
+* :ref:`bob.db.swan`
 * :ref:`bob.db.utfvp`
 * :ref:`bob.db.uvad`
 * :ref:`bob.db.verafinger`
@@ -235,6 +240,8 @@ Index of all Packages
    bob.db.base <bob/bob.db.base/doc/index.rst>
    bob.db.biosecure <bob/bob.db.biosecure/doc/index.rst>
    bob.db.biosecurid.face <bob/bob.db.biosecurid.face/doc/index.rst>
+   bob.db.casia_fasd <bob/bob.db.casia_fasd/doc/index.rst>
+   bob.db.casiasurf <bob/bob.db.casiasurf/doc/index.rst>
    bob.db.casme2 <bob/bob.db.casme2/doc/index.rst>
    bob.db.caspeal <bob/bob.db.caspeal/doc/index.rst>
    bob.db.cbsr_nir_vis_2 <bob/bob.db.cbsr_nir_vis_2/doc/index.rst>
@@ -256,6 +263,7 @@ Index of all Packages
    bob.db.iostar <bob/bob.db.iostar/doc/index.rst>
    bob.db.iris <bob/bob.db.iris/doc/index.rst>
    bob.db.kboc16 <bob/bob.db.kboc16/doc/index.rst>
+   bob.db.ldhf <bob/bob.db.ldhf/doc/index.rst>
    bob.db.lfw <bob/bob.db.lfw/doc/index.rst>
    bob.db.livdet2013 <bob/bob.db.livdet2013/doc/index.rst>
    bob.db.maskattack <bob/bob.db.maskattack/doc/index.rst>
@@ -274,7 +282,9 @@ Index of all Packages
    bob.db.replaymobile <bob/bob.db.replaymobile/doc/index.rst>
    bob.db.rimoner3 <bob/bob.db.rimoner3/doc/index.rst>
    bob.db.scface <bob/bob.db.scface/doc/index.rst>
+   bob.db.siw <bob/bob.db.siw/doc/index.rst>
    bob.db.stare <bob/bob.db.stare/doc/index.rst>
+   bob.db.swan <bob/bob.db.swan/doc/index.rst>
    bob.db.utfvp <bob/bob.db.utfvp/doc/index.rst>
    bob.db.uvad <bob/bob.db.uvad/doc/index.rst>
    bob.db.verafinger <bob/bob.db.verafinger/doc/index.rst>

@@ -12,7 +12,8 @@ requirements:
   run:
     - python
     - setuptools
-    # this should be the same as packages.txt
+    # This list should be the same as packages.txt.
+    # This list should also be the same as in bob/bob conda recipe + bob and bob.devtools
     - bob
     - bob.ap
     - bob.bio.base
@@ -36,6 +37,8 @@ requirements:
     - bob.db.base
     - bob.db.biosecure
     - bob.db.biosecurid.face
+    - bob.db.casia_fasd
+    - bob.db.casiasurf
     - bob.db.casme2
     - bob.db.caspeal
     - bob.db.cbsr_nir_vis_2
@@ -57,6 +60,7 @@ requirements:
     - bob.db.iostar
     - bob.db.iris
     - bob.db.kboc16
+    - bob.db.ldhf
     - bob.db.lfw
     - bob.db.livdet2013
     - bob.db.maskattack
@@ -75,7 +79,9 @@ requirements:
     - bob.db.replaymobile
     - bob.db.rimoner3
     - bob.db.scface
+    - bob.db.siw
     - bob.db.stare
+    - bob.db.swan
     - bob.db.utfvp
     - bob.db.uvad
     - bob.db.verafinger

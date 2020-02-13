@@ -30,6 +30,8 @@ README of all Packages
    bob.db.base <bob/bob.db.base/README.rst>
    bob.db.biosecure <bob/bob.db.biosecure/README.rst>
    bob.db.biosecurid.face <bob/bob.db.biosecurid.face/README.rst>
+   bob.db.casia_fasd <bob/bob.db.casia_fasd/README.rst>
+   bob.db.casiasurf <bob/bob.db.casiasurf/README.rst>
    bob.db.casme2 <bob/bob.db.casme2/README.rst>
    bob.db.caspeal <bob/bob.db.caspeal/README.rst>
    bob.db.cbsr_nir_vis_2 <bob/bob.db.cbsr_nir_vis_2/README.rst>
@@ -51,6 +53,7 @@ README of all Packages
    bob.db.iostar <bob/bob.db.iostar/README.rst>
    bob.db.iris <bob/bob.db.iris/README.rst>
    bob.db.kboc16 <bob/bob.db.kboc16/README.rst>
+   bob.db.ldhf <bob/bob.db.ldhf/README.rst>
    bob.db.lfw <bob/bob.db.lfw/README.rst>
    bob.db.livdet2013 <bob/bob.db.livdet2013/README.rst>
    bob.db.maskattack <bob/bob.db.maskattack/README.rst>
@@ -69,7 +72,9 @@ README of all Packages
    bob.db.replaymobile <bob/bob.db.replaymobile/README.rst>
    bob.db.rimoner3 <bob/bob.db.rimoner3/README.rst>
    bob.db.scface <bob/bob.db.scface/README.rst>
+   bob.db.siw <bob/bob.db.siw/README.rst>
    bob.db.stare <bob/bob.db.stare/README.rst>
+   bob.db.swan <bob/bob.db.swan/README.rst>
    bob.db.utfvp <bob/bob.db.utfvp/README.rst>
    bob.db.uvad <bob/bob.db.uvad/README.rst>
    bob.db.verafinger <bob/bob.db.verafinger/README.rst>

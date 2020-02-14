@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # Andre Anjos <andre.anjos@idiap.ch>
-# Sat 24 Mar 2012 18:51:21 CET 
+# Sat 24 Mar 2012 18:51:21 CET
 
 """Computes an ROC curve for the Iris Flower Recognition using Linear Discriminant Analysis and Bob.
 """
@@ -18,11 +18,12 @@ machine, eigen_values = trainer.train(data.values())
 
 # A simple way to forward the data
 output = {}
-for key in data.keys(): output[key] = machine(data[key])
+for key, value in data.items():
+    output[key] = machine(value)
 
 # Performance
-negatives = numpy.vstack([output['setosa'], output['versicolor']])[:,0]
-positives = output['virginica'][:,0]
+negatives = numpy.vstack([output["setosa"], output["versicolor"]])[:, 0]
+positives = output["virginica"][:, 0]
 
 # Plot ROC curve
 bob.measure.plot.roc(negatives, positives)
@@ -30,4 +31,3 @@ pyplot.xlabel("False Virginica Acceptance (%)")
 pyplot.ylabel("False Virginica Rejection (%)")
 pyplot.title("ROC Curve for Virginica Classification")
 pyplot.grid()
-pyplot.axis([0, 5, 0, 15]) #xmin, xmax, ymin, ymax

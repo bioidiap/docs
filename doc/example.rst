@@ -46,7 +46,7 @@ linear discriminant model to distinguish the species from each other.
 
 
 Training a :py:class:`bob.learn.linear.Machine` with LDA
----------------------------------------------------------
+========================================================
 
 Creating a :py:class:`bob.learn.linear.Machine` to perform Linear Discriminant Analysis on the Iris dataset involves using the :py:class:`bob.learn.linear.FisherLDATrainer`:
 
@@ -72,7 +72,7 @@ A few things should be noted:
    For this example, we just discard this information.
 
 Looking at the first LDA component
-----------------------------------
+==================================
 
 To reproduce Fisher's results, we must pass the data through the created machine:
 
@@ -117,7 +117,7 @@ You should see an image like this:
 
 
 Measuring performance
----------------------
+=====================
 
 You can measure the performance of the system on classifying, say, *Iris Virginica* as compared to the other two variants.
 We can use the functions in :ref:`bob.measure <bob.measure>` for that purpose.

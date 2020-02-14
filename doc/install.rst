@@ -1,8 +1,8 @@
 .. _bob.install:
 
-***************************
+===========================
  Installation instructions
-***************************
+===========================
 
 By now you should know that Bob is made of several :ref:`bob.packages`. There is no single
 package that installs all Bob packages because that would just take too much space.

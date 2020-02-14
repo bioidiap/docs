@@ -7,7 +7,6 @@ README of all Packages
    :maxdepth: 1
    :titlesonly:
 
-   bob <bob/bob/README.rst>
    bob.ap <bob/bob.ap/README.rst>
    bob.bio.base <bob/bob.bio.base/README.rst>
    bob.bio.face <bob/bob.bio.face/README.rst>

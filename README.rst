@@ -14,9 +14,9 @@ To add a new package:
 * Make sure the package is **public** first. Do not add private packages here.
 * Make sure the package is in https://gitlab.idiap.ch/bob/bob first.
 * The list of packages here should be in sync with `bob/bob`.
-* **Remove** packages which are here but no longer are in `bob/bob`.
+* Remove packages which are here but no longer are in `bob/bob`.
 * Add it in ``conda/meta.yaml`` and ``packages.txt``.
-* Add it in ``doc/index.rst`` (you need to add it in several places in this file).
+* Add it in ``doc/packages.rst`` (you need to add it in several places in this file).
 * Add it in ``doc/readme_index.rst``.
 * If it plots something using matplotlib during its documentation generation,
   make sure you add a symlink for it in the docs folder.

@@ -1,7 +1,7 @@
 .. _bob.help:
 
 ================================
- How to Get Help and Contribute
+ How to get help and contribute
 ================================
 
 Example usages of Bob
@@ -24,7 +24,7 @@ For example, you can look at:
   create new database interfaces for the ``bob.bio`` and ``bob.pad`` frameworks.
 
 
-How to Get Help
+How to get help
 ===============
 
 There are several ways to get help if you are facing a problem.
@@ -45,7 +45,7 @@ by using public channels. Here is a list of places that you can ask questions:
 * Ask on our mailing list: https://www.idiap.ch/software/bob/discuss
 
 
-How to Contribute
+How to contribute
 =================
 
 Bob is open source and we welcome contributions.

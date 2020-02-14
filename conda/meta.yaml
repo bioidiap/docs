@@ -14,6 +14,7 @@ requirements:
     - setuptools
     # This list should be the same as packages.txt.
     # This list should also be the same as in bob/bob conda recipe + bob.devtools
+    - bob
     - bob.ap
     - bob.bio.base
     - bob.bio.face

@@ -9,7 +9,7 @@ import bob.db.iris
 import bob.learn.linear
 import bob.measure
 import numpy
-from matplotlib import pyplot
+import matplotlib.pyplot as plt
 
 # Training is a 3-step thing
 data = bob.db.iris.data()
@@ -26,8 +26,9 @@ negatives = numpy.vstack([output["setosa"], output["versicolor"]])[:, 0]
 positives = output["virginica"][:, 0]
 
 # Plot ROC curve
-bob.measure.plot.roc(negatives, positives)
-pyplot.xlabel("False Virginica Acceptance (%)")
-pyplot.ylabel("False Virginica Rejection (%)")
-pyplot.title("ROC Curve for Virginica Classification")
-pyplot.grid()
+fpr, fnr = bob.measure.roc(negatives, positives, n_points=2000)
+plt.plot(100 * fpr, 100 * fnr)
+plt.xlabel("False Virginica Acceptance (%)")
+plt.ylabel("False Virginica Rejection (%)")
+plt.title("ROC Curve for Virginica Classification")
+plt.grid()

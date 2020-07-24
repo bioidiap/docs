@@ -61,22 +61,16 @@ Index of all packages
    bob.db.casme2 <bob/bob.db.casme2/doc/index.rst>
    bob.db.caspeal <bob/bob.db.caspeal/doc/index.rst>
    bob.db.cbsr_nir_vis_2 <bob/bob.db.cbsr_nir_vis_2/doc/index.rst>
-   bob.db.chasedb1 <bob/bob.db.chasedb1/doc/index.rst>
    bob.db.cohface <bob/bob.db.cohface/doc/index.rst>
    bob.db.cuhk_cufs <bob/bob.db.cuhk_cufs/doc/index.rst>
    bob.db.cuhk_cufsf <bob/bob.db.cuhk_cufsf/doc/index.rst>
-   bob.db.drionsdb <bob/bob.db.drionsdb/doc/index.rst>
-   bob.db.drishtigs1 <bob/bob.db.drishtigs1/doc/index.rst>
-   bob.db.drive <bob/bob.db.drive/doc/index.rst>
    bob.db.fargo <bob/bob.db.fargo/doc/index.rst>
    bob.db.frgc <bob/bob.db.frgc/doc/index.rst>
    bob.db.fv3d <bob/bob.db.fv3d/doc/index.rst>
    bob.db.gbu <bob/bob.db.gbu/doc/index.rst>
    bob.db.hci_tagging <bob/bob.db.hci_tagging/doc/index.rst>
-   bob.db.hrf <bob/bob.db.hrf/doc/index.rst>
    bob.db.ijba <bob/bob.db.ijba/doc/index.rst>
    bob.db.ijbc <bob/bob.db.ijbc/doc/index.rst>
-   bob.db.iostar <bob/bob.db.iostar/doc/index.rst>
    bob.db.iris <bob/bob.db.iris/doc/index.rst>
    bob.db.kboc16 <bob/bob.db.kboc16/doc/index.rst>
    bob.db.ldhf <bob/bob.db.ldhf/doc/index.rst>
@@ -93,13 +87,10 @@ Index of all packages
    bob.db.pericrosseye <bob/bob.db.pericrosseye/doc/index.rst>
    bob.db.pola_thermal<bob/bob.db.pola_thermal/doc/index.rst>
    bob.db.putvein <bob/bob.db.putvein/doc/index.rst>
-   bob.db.refuge <bob/bob.db.refuge/doc/index.rst>
    bob.db.replay <bob/bob.db.replay/doc/index.rst>
    bob.db.replaymobile <bob/bob.db.replaymobile/doc/index.rst>
-   bob.db.rimoner3 <bob/bob.db.rimoner3/doc/index.rst>
    bob.db.scface <bob/bob.db.scface/doc/index.rst>
    bob.db.siw <bob/bob.db.siw/doc/index.rst>
-   bob.db.stare <bob/bob.db.stare/doc/index.rst>
    bob.db.swan <bob/bob.db.swan/doc/index.rst>
    bob.db.utfvp <bob/bob.db.utfvp/doc/index.rst>
    bob.db.uvad <bob/bob.db.uvad/doc/index.rst>

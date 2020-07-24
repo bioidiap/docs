@@ -34,22 +34,16 @@ README of all Packages
    bob.db.casme2 <bob/bob.db.casme2/README.rst>
    bob.db.caspeal <bob/bob.db.caspeal/README.rst>
    bob.db.cbsr_nir_vis_2 <bob/bob.db.cbsr_nir_vis_2/README.rst>
-   bob.db.chasedb1 <bob/bob.db.chasedb1/README.rst>
    bob.db.cohface <bob/bob.db.cohface/README.rst>
    bob.db.cuhk_cufs <bob/bob.db.cuhk_cufs/README.rst>
    bob.db.cuhk_cufsf <bob/bob.db.cuhk_cufsf/README.rst>
-   bob.db.drionsdb <bob/bob.db.drionsdb/README.rst>
-   bob.db.drishtigs1 <bob/bob.db.drishtigs1/README.rst>
-   bob.db.drive <bob/bob.db.drive/README.rst>
    bob.db.fargo <bob/bob.db.fargo/README.rst>
    bob.db.frgc <bob/bob.db.frgc/README.rst>
    bob.db.fv3d <bob/bob.db.fv3d/README.rst>
    bob.db.gbu <bob/bob.db.gbu/README.rst>
    bob.db.hci_tagging <bob/bob.db.hci_tagging/README.rst>
-   bob.db.hrf <bob/bob.db.hrf/README.rst>
    bob.db.ijba <bob/bob.db.ijba/README.rst>
    bob.db.ijbc <bob/bob.db.ijbc/README.rst>
-   bob.db.iostar <bob/bob.db.iostar/README.rst>
    bob.db.iris <bob/bob.db.iris/README.rst>
    bob.db.kboc16 <bob/bob.db.kboc16/README.rst>
    bob.db.ldhf <bob/bob.db.ldhf/README.rst>
@@ -66,13 +60,10 @@ README of all Packages
    bob.db.pericrosseye <bob/bob.db.pericrosseye/README.rst>
    bob.db.pola_thermal <bob/bob.db.pola_thermal/README.rst>
    bob.db.putvein <bob/bob.db.putvein/README.rst>
-   bob.db.refuge <bob/bob.db.refuge/README.rst>
    bob.db.replay <bob/bob.db.replay/README.rst>
    bob.db.replaymobile <bob/bob.db.replaymobile/README.rst>
-   bob.db.rimoner3 <bob/bob.db.rimoner3/README.rst>
    bob.db.scface <bob/bob.db.scface/README.rst>
    bob.db.siw <bob/bob.db.siw/README.rst>
-   bob.db.stare <bob/bob.db.stare/README.rst>
    bob.db.swan <bob/bob.db.swan/README.rst>
    bob.db.utfvp <bob/bob.db.utfvp/README.rst>
    bob.db.uvad <bob/bob.db.uvad/README.rst>

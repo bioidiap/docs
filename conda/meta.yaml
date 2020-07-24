@@ -129,6 +129,9 @@ test:
     - coverage
     - sphinx
     - sphinx_rtd_theme
+    - sphinxcontrib-programoutput
+    - graphviz
+    - font-ttf-dejavu-sans-mono
 
 about:
   home: https://www.idiap.ch/software/bob/

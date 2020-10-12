@@ -115,7 +115,6 @@ requirements:
     - bob.measure
     - bob.pad.base
     - bob.pad.face
-    - bob.pad.vein
     - bob.pad.voice
     - bob.rppg.base
     - bob.sp

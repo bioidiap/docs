@@ -99,7 +99,6 @@ bob/bob.math
 bob/bob.measure
 bob/bob.pad.base
 bob/bob.pad.face
-bob/bob.pad.vein
 bob/bob.pad.voice
 bob/bob.rppg.base
 bob/bob.sp

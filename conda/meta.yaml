@@ -1,4 +1,4 @@
-{% set name = 'docs' %}
+{% set name = 'bob.docs' %}
 {% set project_dir = environ.get('RECIPE_DIR') + '/..' %}
 
 package:

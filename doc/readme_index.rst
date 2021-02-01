@@ -36,10 +36,7 @@ README of all Packages
    bob.db.livdet2013 <bob/bob.db.livdet2013/README.rst>
    bob.db.maskattack <bob/bob.db.maskattack/README.rst>
    bob.db.mnist <bob/bob.db.mnist/README.rst>
-   bob.db.mobio <bob/bob.db.mobio/README.rst>
-   bob.db.multipie <bob/bob.db.multipie/README.rst>
    bob.db.nivl <bob/bob.db.nivl/README.rst>
-   bob.db.oulunpu <bob/bob.db.oulunpu/README.rst>
    bob.db.pola_thermal <bob/bob.db.pola_thermal/README.rst>
    bob.db.putvein <bob/bob.db.putvein/README.rst>
    bob.db.replay <bob/bob.db.replay/README.rst>

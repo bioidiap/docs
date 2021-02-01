@@ -113,8 +113,6 @@ Interfaces
 * :ref:`bob.db.livdet2013`
 * :ref:`bob.db.maskattack`
 * :ref:`bob.db.mnist`
-* :ref:`bob.db.mobio`
-* :ref:`bob.db.multipie`
 * :ref:`bob.db.nivl`
 * :ref:`bob.db.oulunpu`
 * :ref:`bob.db.pola_thermal`

@@ -65,8 +65,6 @@ Index of all packages
    bob.db.livdet2013 <bob/bob.db.livdet2013/doc/index.rst>
    bob.db.maskattack <bob/bob.db.maskattack/doc/index.rst>
    bob.db.mnist <bob/bob.db.mnist/doc/index.rst>
-   bob.db.mobio <bob/bob.db.mobio/doc/index.rst>
-   bob.db.multipie <bob/bob.db.multipie/doc/index.rst>
    bob.db.nivl <bob/bob.db.nivl/doc/index.rst>
    bob.db.oulunpu <bob/bob.db.oulunpu/doc/index.rst>
    bob.db.pola_thermal<bob/bob.db.pola_thermal/doc/index.rst>

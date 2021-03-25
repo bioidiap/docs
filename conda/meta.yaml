@@ -15,6 +15,8 @@ requirements:
     # This list should be the same as packages.txt.
     # This list should also be the same as in bob/bob conda recipe + bob and bob.devtools
     - bob
+    - bob.devtools
+    # LIST OF BOB PACKAGES - START
     - bob.buildout
     - bob.extension
     - bob.blitz
@@ -32,8 +34,8 @@ requirements:
     - bob.ip.color
     - bob.ip.gabor
     - bob.learn.activation
-    - bob.learn.libsvm
     - bob.learn.linear
+    - bob.learn.libsvm
     - bob.learn.mlp
     - bob.db.iris
     - bob.learn.em
@@ -43,6 +45,7 @@ requirements:
     - gridtk
     - bob.ip.qualitymeasure
     - bob.pipelines
+    - bob.learn.tensorflow
     - bob.bio.base
     - bob.bio.gmm
     - bob.bio.face
@@ -51,9 +54,9 @@ requirements:
     - bob.pad.base
     - bob.pad.face
     - bob.fusion.base
-    - bob.learn.tensorflow
     - bob.learn.pytorch
     - bob.ip.binseg
+    # LIST OF BOB PACKAGES - END
 test:
   commands:
     - sphinx-build {{ project_dir }}/doc {{ project_dir }}/sphinx

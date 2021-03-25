@@ -33,7 +33,6 @@ Signal, Audio, Image and Video Processing
 * :ref:`bob.ip.gabor`
 * :ref:`bob.ip.facedetect`
 * :ref:`bob.ip.qualitymeasure`
-* :ref:`bob.ip.skincolorfilter`
 * :ref:`bob.ip.binseg`
 
 
@@ -94,36 +93,9 @@ Base Database Packages
 Interfaces
 ^^^^^^^^^^
 
-* :ref:`bob.db.arface`
-* :ref:`bob.db.asvspoof`
-* :ref:`bob.db.asvspoof2017`
 * :ref:`bob.db.atnt`
-* :ref:`bob.db.casia_fasd`
-* :ref:`bob.db.casiasurf`
-* :ref:`bob.db.cbsr_nir_vis_2`
-* :ref:`bob.db.cuhk_cufs`
-* :ref:`bob.db.cuhk_cufsf`
-* :ref:`bob.db.fargo`
-* :ref:`bob.db.gbu`
-* :ref:`bob.db.ijbc`
 * :ref:`bob.db.iris`
-* :ref:`bob.db.kboc16`
-* :ref:`bob.db.ldhf`
-* :ref:`bob.db.lfw`
-* :ref:`bob.db.livdet2013`
-* :ref:`bob.db.maskattack`
 * :ref:`bob.db.mnist`
-* :ref:`bob.db.nivl`
-* :ref:`bob.db.oulunpu`
-* :ref:`bob.db.pola_thermal`
-* :ref:`bob.db.putvein`
-* :ref:`bob.db.replay`
-* :ref:`bob.db.replaymobile`
-* :ref:`bob.db.utfvp`
-* :ref:`bob.db.uvad`
-* :ref:`bob.db.verafinger`
-* :ref:`bob.db.xm2vts`
-* :ref:`bob.db.youtube`
 
 
 

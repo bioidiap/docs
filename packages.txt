@@ -25,29 +25,6 @@ bob/bob.db.atnt
 bob/bob.ip.facedetect
 bob/gridtk
 bob/bob.ip.qualitymeasure
-bob/bob.ip.skincolorfilter
-bob/bob.db.arface
-bob/bob.db.asvspoof
-bob/bob.db.asvspoof2017
-bob/bob.db.casia_fasd
-bob/bob.db.gbu
-bob/bob.db.ijbc
-bob/bob.db.lfw
-bob/bob.db.livdet2013
-bob/bob.db.mobio
-bob/bob.db.multipie
-bob/bob.db.replay
-bob/bob.db.replaymobile
-bob/bob.db.voicepa
-bob/bob.db.xm2vts
-bob/bob.db.youtube
-bob/bob.db.maskattack
-bob/bob.db.casiasurf
-bob/bob.db.fargo
-bob/bob.db.verafinger
-bob/bob.db.utfvp
-bob/bob.db.fv3d
-bob/bob.db.putvein
 bob/bob.pipelines
 bob/bob.bio.base
 bob/bob.bio.gmm
@@ -57,13 +34,6 @@ bob/bob.bio.vein
 bob/bob.pad.base
 bob/bob.pad.face
 bob/bob.fusion.base
-bob/bob.db.uvad
-bob/bob.db.cuhk_cufs
-bob/bob.db.cbsr_nir_vis_2
-bob/bob.db.nivl
-bob/bob.db.pola_thermal
-bob/bob.db.cuhk_cufsf
-bob/bob.db.ldhf
 bob/bob.learn.tensorflow
 bob/bob.learn.pytorch  # [linux]
 bob/bob.ip.binseg  # [linux]

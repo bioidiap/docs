@@ -36,9 +36,7 @@ README of all Packages
    bob.ip.tensorflow_extractor <bob/bob.ip.tensorflow_extractor/README.rst>
    bob.learn.activation <bob/bob.learn.activation/README.rst>
    bob.learn.em <bob/bob.learn.em/README.rst>
-   bob.learn.libsvm <bob/bob.learn.libsvm/README.rst>
    bob.learn.linear <bob/bob.learn.linear/README.rst>
-   bob.learn.mlp <bob/bob.learn.mlp/README.rst>
    bob.learn.pytorch <bob/bob.learn.pytorch/README.rst>
    bob.learn.tensorflow <bob/bob.learn.tensorflow/README.rst>
    bob.math <bob/bob.math/README.rst>

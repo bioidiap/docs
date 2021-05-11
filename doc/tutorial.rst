@@ -207,12 +207,6 @@ Here, we examine a few of the machines and trainers available in Bob.
 -  For a start, you should read the :ref:`bob.learn.linear`,
    which is able to perform subspace projections like PCA and LDA.
 
--  Multi-Layer Perceptron (MLP) Machines and Trainers are provided within the
-   :ref:`bob.learn.mlp` package.
-
--  :ref:`bob.learn.libsvm` are provided though a bridge to
-   `LibSVM`_.
-
 -  Generating strong classifiers by Boosting Strong Classifiers
    weak classifiers is provided by :ref:`bob.learn.boosting`.
 

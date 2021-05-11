@@ -15,9 +15,7 @@ bob/bob.ip.base
 bob/bob.ip.color
 bob/bob.ip.gabor
 bob/bob.learn.activation
-bob/bob.learn.libsvm
 bob/bob.learn.linear
-bob/bob.learn.mlp
 bob/bob.db.iris
 bob/bob.learn.em
 bob/bob.db.mnist

@@ -27,7 +27,6 @@
 .. _libjpeg: http://libjpeg.sourceforge.net/
 .. _libpng license: http://www.libpng.org/pub/png/src/libpng-LICENSE.txt
 .. _libpng: http://libpng.org/pub/png/libpng.html
-.. _LIBSVM: http://www.csie.ntu.edu.tw/~cjlin/libsvm/
 .. _libtiff: http://www.remotesensing.org/libtiff/
 .. _mailing list: https://www.idiap.ch/software/bob/discuss
 .. _MatIO: http://matio.sourceforge.net

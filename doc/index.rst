@@ -61,9 +61,7 @@ Index of all packages
    bob.ip.qualitymeasure <bob/bob.ip.qualitymeasure/doc/index.rst>
    bob.learn.activation <bob/bob.learn.activation/doc/index.rst>
    bob.learn.em <bob/bob.learn.em/doc/index.rst>
-   bob.learn.libsvm <bob/bob.learn.libsvm/doc/index.rst>
    bob.learn.linear <bob/bob.learn.linear/doc/index.rst>
-   bob.learn.mlp <bob/bob.learn.mlp/doc/index.rst>
    bob.learn.pytorch <bob/bob.learn.pytorch/doc/index.rst>
    bob.learn.tensorflow <bob/bob.learn.tensorflow/doc/index.rst>
    bob.math <bob/bob.math/doc/index.rst>

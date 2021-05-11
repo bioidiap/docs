@@ -41,9 +41,7 @@ Machine Learning
 
 * :ref:`bob.measure`
 * :ref:`bob.learn.linear`
-* :ref:`bob.learn.mlp`
 * :ref:`bob.learn.activation`
-* :ref:`bob.learn.libsvm`
 * :ref:`bob.learn.em`
 * :ref:`bob.learn.tensorflow`
 * :ref:`bob.learn.pytorch`

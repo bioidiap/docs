@@ -43,5 +43,6 @@ README of all Packages
    bob.measure <bob/bob.measure/README.rst>
    bob.pad.base <bob/bob.pad.base/README.rst>
    bob.pad.face <bob/bob.pad.face/README.rst>
+   bob.pipelines <bob/bob.pipelines/README.rst>
    bob.sp <bob/bob.sp/README.rst>
    gridtk <bob/gridtk/README.rst>

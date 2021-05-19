@@ -1,5 +1,6 @@
 bob/bob.buildout
 bob/bob.extension
+bob/bob.devtools
 bob/bob.blitz
 bob/bob.core
 bob/bob.io.base

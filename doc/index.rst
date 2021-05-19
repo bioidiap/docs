@@ -68,6 +68,7 @@ Index of all packages
    bob.measure <bob/bob.measure/doc/index.rst>
    bob.pad.base <bob/bob.pad.base/doc/index.rst>
    bob.pad.face <bob/bob.pad.face/doc/index.rst>
+   bob.pipelines <bob/bob.pipelines/doc/index.rst>
    bob.sp <bob/bob.sp/doc/index.rst>
    gridtk <bob/gridtk/doc/index.rst>
    readme_index.rst

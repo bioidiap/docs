@@ -45,6 +45,7 @@ Machine Learning
 * :ref:`bob.learn.em`
 * :ref:`bob.learn.tensorflow`
 * :ref:`bob.learn.pytorch`
+* :ref:`bob.pipelines`
 
 Modules for Developers
 ----------------------

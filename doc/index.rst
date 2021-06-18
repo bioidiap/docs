@@ -53,6 +53,7 @@ Index of all packages
    bob.io.base <bob/bob.io.base/doc/index.rst>
    bob.io.image <bob/bob.io.image/doc/index.rst>
    bob.io.video <bob/bob.io.video/doc/index.rst>
+   bob.io.audio <bob/bob.io.audio/doc/index.rst>
    bob.ip.base <bob/bob.ip.base/doc/index.rst>
    bob.ip.binseg <bob/bob.ip.binseg/doc/index.rst>
    bob.ip.color <bob/bob.ip.color/doc/index.rst>

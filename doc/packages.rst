@@ -22,6 +22,7 @@ Data Input and Output
 * :ref:`bob.io.image`
 * :ref:`bob.io.video`
 * :ref:`bob.io.audio`
+* :ref:`bob.io.stream`
 
 Signal, Audio, Image and Video Processing
 -----------------------------------------
@@ -34,6 +35,7 @@ Signal, Audio, Image and Video Processing
 * :ref:`bob.ip.facedetect`
 * :ref:`bob.ip.qualitymeasure`
 * :ref:`bob.ip.binseg`
+* :ref:`bob.ip.stereo`
 
 
 Machine Learning

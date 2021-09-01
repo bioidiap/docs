@@ -24,6 +24,8 @@ bob/bob.db.atnt
 bob/bob.ip.facedetect
 bob/gridtk
 bob/bob.ip.qualitymeasure
+bob/bob.io.stream
+bob/bob.ip.stereo
 bob/bob.pipelines
 bob/bob.bio.base
 bob/bob.bio.gmm

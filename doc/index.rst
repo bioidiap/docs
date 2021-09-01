@@ -54,12 +54,14 @@ Index of all packages
    bob.io.image <bob/bob.io.image/doc/index.rst>
    bob.io.video <bob/bob.io.video/doc/index.rst>
    bob.io.audio <bob/bob.io.audio/doc/index.rst>
+   bob.io.stream <bob/bob.io.stream/doc/index.rst>
    bob.ip.base <bob/bob.ip.base/doc/index.rst>
    bob.ip.binseg <bob/bob.ip.binseg/doc/index.rst>
    bob.ip.color <bob/bob.ip.color/doc/index.rst>
    bob.ip.facedetect <bob/bob.ip.facedetect/doc/index.rst>
    bob.ip.gabor <bob/bob.ip.gabor/doc/index.rst>
    bob.ip.qualitymeasure <bob/bob.ip.qualitymeasure/doc/index.rst>
+   bob.ip.stereo <bob/bob.ip.stereo/doc/index.rst>
    bob.learn.activation <bob/bob.learn.activation/doc/index.rst>
    bob.learn.em <bob/bob.learn.em/doc/index.rst>
    bob.learn.linear <bob/bob.learn.linear/doc/index.rst>

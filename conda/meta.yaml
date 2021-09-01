@@ -42,6 +42,8 @@ requirements:
     - bob.ip.facedetect
     - gridtk
     - bob.ip.qualitymeasure
+    - bob.io.stream
+    - bob.ip.stereo
     - bob.pipelines
     - bob.learn.tensorflow
     - bob.bio.base

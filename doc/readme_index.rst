@@ -27,12 +27,14 @@ README of all Packages
    bob.io.base <bob/bob.io.base/README.rst>
    bob.io.image <bob/bob.io.image/README.rst>
    bob.io.video <bob/bob.io.video/README.rst>
+   bob.io.stream <bob/bob.io.stream/README.rst>
    bob.ip.base <bob/bob.ip.base/README.rst>
    bob.ip.binseg <bob/bob.ip.binseg/README.rst>
    bob.ip.color <bob/bob.ip.color/README.rst>
    bob.ip.facedetect <bob/bob.ip.facedetect/README.rst>
    bob.ip.gabor <bob/bob.ip.gabor/README.rst>
    bob.ip.qualitymeasure <bob/bob.ip.qualitymeasure/README.rst>
+   bob.ip.stereo <bob/bob.ip.stereo/README.rst>
    bob.ip.tensorflow_extractor <bob/bob.ip.tensorflow_extractor/README.rst>
    bob.learn.activation <bob/bob.learn.activation/README.rst>
    bob.learn.em <bob/bob.learn.em/README.rst>

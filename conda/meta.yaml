@@ -59,14 +59,13 @@ test:
   commands:
     - sphinx-build {{ project_dir }}/doc {{ project_dir }}/sphinx
   requires:
-    - bob-devel {{ bob_devel }}.*
-    - nose
-    - coverage
-    - sphinx
-    - sphinx_rtd_theme
-    - sphinxcontrib-programoutput
-    - graphviz
-    - font-ttf-dejavu-sans-mono
+    - nose {{ nose }}
+    - coverage {{ coverage }}
+    - sphinx {{ sphinx }}
+    - sphinx_rtd_theme {{ sphinx_rtd_theme }}
+    - sphinxcontrib-programoutput {{ sphinxcontrib_programoutput }}
+    - graphviz {{ graphviz }}
+    - font-ttf-dejavu-sans-mono {{ font_ttf_dejavu_sans_mono }}
 
 about:
   home: https://www.idiap.ch/software/bob/

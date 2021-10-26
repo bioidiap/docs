@@ -14,7 +14,6 @@ README of all Packages
    bob.bio.vein <bob/bob.bio.vein/README.rst>
    bob.bio.video <bob/bob.bio.video/README.rst>
    bob.blitz <bob/bob.blitz/README.rst>
-   bob.buildout <bob/bob.buildout/README.rst>
    bob.core <bob/bob.core/README.rst>
    bob.db.atnt <bob/bob.db.atnt/README.rst>
    bob.db.base <bob/bob.db.base/README.rst>
@@ -26,6 +25,7 @@ README of all Packages
    bob.io.audio <bob/bob.io.audio/README.rst>
    bob.io.base <bob/bob.io.base/README.rst>
    bob.io.image <bob/bob.io.image/README.rst>
+   bob.io.stream <bob/bob.io.stream/README.rst>
    bob.io.video <bob/bob.io.video/README.rst>
    bob.ip.base <bob/bob.ip.base/README.rst>
    bob.ip.binseg <bob/bob.ip.binseg/README.rst>
@@ -33,11 +33,11 @@ README of all Packages
    bob.ip.facedetect <bob/bob.ip.facedetect/README.rst>
    bob.ip.gabor <bob/bob.ip.gabor/README.rst>
    bob.ip.qualitymeasure <bob/bob.ip.qualitymeasure/README.rst>
+   bob.ip.stereo <bob/bob.ip.stereo/README.rst>
    bob.ip.tensorflow_extractor <bob/bob.ip.tensorflow_extractor/README.rst>
    bob.learn.activation <bob/bob.learn.activation/README.rst>
    bob.learn.em <bob/bob.learn.em/README.rst>
    bob.learn.linear <bob/bob.learn.linear/README.rst>
-   bob.learn.pytorch <bob/bob.learn.pytorch/README.rst>
    bob.learn.tensorflow <bob/bob.learn.tensorflow/README.rst>
    bob.math <bob/bob.math/README.rst>
    bob.measure <bob/bob.measure/README.rst>

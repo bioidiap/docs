@@ -17,7 +17,6 @@ requirements:
     - bob
     - bob.devtools
     # LIST OF BOB PACKAGES - START
-    - bob.buildout
     - bob.extension
     - bob.blitz
     - bob.core
@@ -41,7 +40,6 @@ requirements:
     - bob.db.atnt
     - bob.ip.facedetect
     - gridtk
-    - bob.ip.qualitymeasure
     - bob.pipelines
     - bob.learn.tensorflow
     - bob.bio.base
@@ -49,11 +47,13 @@ requirements:
     - bob.bio.face
     - bob.bio.video
     - bob.bio.vein
+    - bob.ip.qualitymeasure
     - bob.pad.base
     - bob.pad.face
     - bob.fusion.base
-    - bob.learn.pytorch
     - bob.ip.binseg
+    - bob.io.stream
+    - bob.ip.stereo
     # LIST OF BOB PACKAGES - END
 test:
   commands:

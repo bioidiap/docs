@@ -1,6 +1,5 @@
-bob/bob.buildout
-bob/bob.extension
 bob/bob.devtools
+bob/bob.extension
 bob/bob.blitz
 bob/bob.core
 bob/bob.io.base
@@ -23,16 +22,17 @@ bob/bob.db.mnist
 bob/bob.db.atnt
 bob/bob.ip.facedetect
 bob/gridtk
-bob/bob.ip.qualitymeasure
 bob/bob.pipelines
+bob/bob.learn.tensorflow
 bob/bob.bio.base
 bob/bob.bio.gmm
 bob/bob.bio.face
 bob/bob.bio.video
 bob/bob.bio.vein
+bob/bob.ip.qualitymeasure
 bob/bob.pad.base
 bob/bob.pad.face
 bob/bob.fusion.base
-bob/bob.learn.tensorflow
-bob/bob.learn.pytorch  # [linux]
-bob/bob.ip.binseg  # [linux]
+bob/bob.ip.binseg
+bob/bob.io.stream
+bob/bob.ip.stereo

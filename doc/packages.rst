@@ -22,6 +22,7 @@ Data Input and Output
 * :ref:`bob.io.image`
 * :ref:`bob.io.video`
 * :ref:`bob.io.audio`
+* :ref:`bob.io.stream`
 
 Signal, Audio, Image and Video Processing
 -----------------------------------------
@@ -34,7 +35,7 @@ Signal, Audio, Image and Video Processing
 * :ref:`bob.ip.facedetect`
 * :ref:`bob.ip.qualitymeasure`
 * :ref:`bob.ip.binseg`
-
+* :ref:`bob.ip.stereo`
 
 Machine Learning
 ----------------
@@ -44,7 +45,6 @@ Machine Learning
 * :ref:`bob.learn.activation`
 * :ref:`bob.learn.em`
 * :ref:`bob.learn.tensorflow`
-* :ref:`bob.learn.pytorch`
 * :ref:`bob.pipelines`
 
 Modules for Developers
@@ -53,7 +53,6 @@ Modules for Developers
 * :ref:`bob.devtools`
 * :ref:`bob.extension`
 * :ref:`bob.blitz`
-* :ref:`bob.buildout`
 
 Parallel Execution
 ------------------

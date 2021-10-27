@@ -4,40 +4,44 @@
  Installation instructions
 ===========================
 
-By now you should know that Bob is made of several :ref:`bob.packages`. There is no single
-package that installs all Bob packages because that would just take too much space.
-Follow the instruction below to install any Bob package.
+By now you should know that Bob is made of several :ref:`bob.packages`. There is
+no single package that installs all Bob packages because that would just take
+too much space. Follow the instruction below to install any Bob package.
 
 We offer pre-compiled binary installations of Bob using `conda`_ for Linux and
-MacOS 64-bit operating systems. Follow the guide below to learn to install any Bob
-package. Bob does not work on Windows.
+MacOS 64-bit operating systems. Follow the guide below to learn to install any
+Bob package. Bob does not work on Windows.
 
-#.  Install `conda`_ (miniconda is preferred) and get familiar with it.
+#.  Install `mamba`_  (`mambaforge`_ is preferred) or `conda`_ (`miniforge`_ is
+    preferred) and get familiar with it. The instructions below use ``mamba``
+    because it's faster than ``conda``, but you may replace it by ``conda``.
+
 #.  Make sure you have an up-to-date `conda`_ installation (conda 4.4 and above
-    is needed) with the **correct configuration** by running the commands
-    below:
+    is needed) with the **correct configuration** by running the commands below:
 
     .. code:: sh
 
-       $ conda update -n base -c defaults conda
+       # install mamba if you don't yet have it installed.
+       $ conda install -n base -c conda-forge mamba
+       $ mamba update -n base -c conda-forge conda mamba
        $ conda config --set show_channel_urls True
 
-#.  Create an environment with the specific Bob packages that you need. For example if
-    you want to install ``bob.io.image`` and ``bob.bio.face``:
+#.  Create an environment with the specific Bob packages that you need. For
+    example if you want to install ``bob.io.image`` and ``bob.bio.face``:
 
     .. code:: sh
 
-       $ conda create --name bob_env1 --override-channels \
-         -c https://www.idiap.ch/software/bob/conda -c defaults \
+       $ mamba create --name bob_env1 --override-channels \
+         -c https://www.idiap.ch/software/bob/conda -c conda-forge \
          python=3 bob.io.image bob.bio.face
 
-#.  Then activate the environment and configure its channels to make sure the channel
-    list is correct in the future as well:
+#.  Then activate the environment and configure its channels to make sure the
+    channel list is correct in the future as well:
 
     .. code:: sh
 
        $ conda activate bob_env1
-       $ conda config --env --add channels defaults
+       $ conda config --env --add channels conda-forge
        $ conda config --env --add channels https://www.idiap.ch/software/bob/conda
 
 #.  If you decide to install more packages in the future, just conda install them:
@@ -45,17 +49,17 @@ package. Bob does not work on Windows.
     .. code:: sh
 
        $ conda activate bob_env1
-       $ conda install bob.io.video bob.bio.video ...
+       $ mamba install bob.io.video bob.bio.video ...
 
 For a comprehensive list of packages that are either part of |project| or use
 |project|, please visit :ref:`bob.packages`.
 
 .. warning::
 
-    Be aware that if you use packages from our channel and other user/community
-    channels (especially ``conda-forge``) in one environment, you may end up
-    with a broken envrionment. We can only guarantee that the packages in our
-    channel are compatible with the ``defaults`` channel.
+    Be aware that if you use packages from our channel and other channels
+    (especially ``defaults``) in one environment, you may end up with a broken
+    envrionment. We can only guarantee that the packages in our channel are
+    compatible with the ``conda-forge`` channel.
 
 .. note::
 
@@ -67,8 +71,9 @@ For a comprehensive list of packages that are either part of |project| or use
 .. note::
 
     Bob has been reported to run on arm processors (e.g. Raspberry Pi) but is
-    not installable with conda. Please see https://stackoverflow.com/questions/50803148
-    for installations on how to install Bob from source.
+    not installable with conda. Please see
+    https://stackoverflow.com/questions/50803148 for installations on how to
+    install Bob from source.
 
 
 .. _bob.source:
@@ -76,18 +81,18 @@ For a comprehensive list of packages that are either part of |project| or use
 Developing Bob packages
 =======================
 
-Use :ref:`bob.devtools <bob.devtools>` if you want to develop Bob packages or create
-a new package. **DO NOT** modify (including adding extra files) the source code of Bob
-packages in your Conda environments. Typically, Bob packages can be extended without
-modifying the original package. So you may want to put your new code in a new package
-instead of modifying the original package.
+Use :ref:`bob.devtools <bob.devtools>` if you want to develop Bob packages or
+create a new package. **DO NOT** modify (including adding extra files) the
+source code of Bob packages in your Conda environments. Typically, Bob packages
+can be extended without modifying the original package. So you may want to put
+your new code in a new package instead of modifying the original package.
 
 .. warning::
 
-  Conda uses hard links to create new
-  environments from a cache folder. Editing a file in one of the environments will edit
-  that file in **ALL** of your environments. The only safe way to recover from this is to
-  delete your Conda installation completely and installing everything again from scratch.
+  Conda uses hard links to create new environments from a cache folder. Editing
+  a file in one of the environments will edit that file in **ALL** of your
+  environments. The only safe way to recover from this is to delete your Conda
+  installation completely and installing everything again from scratch.
 
 
 Installing older versions of Bob
@@ -98,19 +103,20 @@ using conda. For example:
 
 .. code:: sh
 
-    $ conda install \
+    $ mamba install \
     -c https://www.idiap.ch/software/bob/conda \
     -c defaults \
     -c https://www.idiap.ch/software/bob/conda/label/archive \
     bob=4.0.0 bob.io.base
 
 will install the version of ``bob.io.base`` that was associated with the Bob
-4.0.0 release.
+4.0.0 release. Bob 9 and earlier used the ``defaults`` channel as base, for Bob
+10 and later replace ``defaults`` with ``conda-forge``.
 
 .. note::
 
-    If you install the ``bob`` conda package, you may need to change your channel list
-    to:
+    If you install the ``bob`` conda package, you may need to change your
+    channel list to:
 
     .. code:: sh
 
@@ -135,22 +141,21 @@ To install them, download one of the files above and run:
 
 .. code:: sh
 
-    $ conda env create --file v300py36.yaml
+    $ mamba env create --file v300py36.yaml
 
 
 Details (advanced users)
 ========================
 
 Since Bob 4, the ``bob`` conda package is just a meta package that pins all
-packages to a specific version. Installing ``bob`` will not install anything;
-it will just impose pinnings in your environment. Normally, installations of
-Bob packages should work without installing ``bob`` itself. For example,
-running:
+packages to a specific version. Installing ``bob`` will not install anything; it
+will just impose pinnings in your environment. Normally, installations of Bob
+packages should work without installing ``bob`` itself. For example, running:
 
 .. code:: sh
 
-    $ conda create --name env_name --override-channels \
-      -c https://www.idiap.ch/software/bob/conda -c defaults \
+    $ mamba create --name env_name --override-channels \
+      -c https://www.idiap.ch/software/bob/conda -c conda-forge \
       bob.<package-name>
 
 should always create a working environment. If it doesn't, please let us know.

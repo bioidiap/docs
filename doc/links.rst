@@ -29,9 +29,12 @@
 .. _libpng: http://libpng.org/pub/png/libpng.html
 .. _libtiff: http://www.remotesensing.org/libtiff/
 .. _mailing list: https://www.idiap.ch/software/bob/discuss
+.. _mamba: https://github.com/mamba-org/mamba
+.. _mambaforge: https://github.com/conda-forge/miniforge#mambaforge
 .. _MatIO: http://matio.sourceforge.net
 .. _Matplotlib: http://matplotlib.sourceforge.net
 .. _miniconda: http://conda.pydata.org/miniconda.html
+.. _miniforge: https://github.com/conda-forge/miniforge/#miniforge3
 .. _MIT: http://www.opensource.org/licenses/MIT
 .. _nose: http://nose.readthedocs.org
 .. _NumPy Reference: https://docs.scipy.org/doc/numpy/

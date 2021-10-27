@@ -42,7 +42,6 @@ by using public channels. Here is a list of places that you can ask questions:
 
 * Ask on https://stackoverflow.com and tag your questions with ``python-bob``.
   This is the preferred way.
-* Ask on our mailing list: https://www.idiap.ch/software/bob/discuss
 
 
 How to contribute

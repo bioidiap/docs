@@ -49,7 +49,7 @@ Bob package. Bob does not work on Windows.
     .. code:: sh
 
        $ conda activate bob_env1
-       $ mamba install bob.io.video bob.bio.video ...
+       $ mamba install bob.bio.video ...
 
 For a comprehensive list of packages that are either part of |project| or use
 |project|, please visit :ref:`bob.packages`.

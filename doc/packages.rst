@@ -9,8 +9,8 @@ for a comprehensive list of packages that either **use Bob** or **are part of Bo
 Moreover, you may find the list of Bob packages that we maintain below.
 
 
-Basic Functionality
--------------------
+Basic Functionality (deprecated)
+--------------------------------
 
 * :ref:`bob.core`
 * :ref:`bob.math`
@@ -18,22 +18,19 @@ Basic Functionality
 Data Input and Output
 ---------------------
 
-* :ref:`bob.io.base`
-* :ref:`bob.io.image`
-* :ref:`bob.io.video`
-* :ref:`bob.io.audio`
+* (deprecated) :ref:`bob.io.base`
+* (deprecated) :ref:`bob.io.image`
 * :ref:`bob.io.stream`
 
 Signal, Audio, Image and Video Processing
 -----------------------------------------
 
-* :ref:`bob.sp`
-* :ref:`bob.ap`
-* :ref:`bob.ip.base`
-* :ref:`bob.ip.color`
-* :ref:`bob.ip.gabor`
-* :ref:`bob.ip.facedetect`
-* :ref:`bob.ip.qualitymeasure`
+* (deprecated) :ref:`bob.sp`
+* (deprecated) :ref:`bob.ap`
+* (deprecated) :ref:`bob.ip.base`
+* (deprecated) :ref:`bob.ip.color`
+* (deprecated) :ref:`bob.ip.gabor`
+* (deprecated) :ref:`bob.ip.qualitymeasure`
 * :ref:`bob.ip.binseg`
 * :ref:`bob.ip.stereo`
 
@@ -41,10 +38,7 @@ Machine Learning
 ----------------
 
 * :ref:`bob.measure`
-* :ref:`bob.learn.linear`
-* :ref:`bob.learn.activation`
 * :ref:`bob.learn.em`
-* :ref:`bob.learn.tensorflow`
 * :ref:`bob.pipelines`
 
 Modules for Developers
@@ -52,7 +46,7 @@ Modules for Developers
 
 * :ref:`bob.devtools`
 * :ref:`bob.extension`
-* :ref:`bob.blitz`
+* (deprecated) :ref:`bob.blitz`
 
 Parallel Execution
 ------------------
@@ -84,16 +78,14 @@ Database Interfaces
 Base Database Packages
 ^^^^^^^^^^^^^^^^^^^^^^
 
-* :ref:`bob.db.base`
+* (deprecated) :ref:`bob.db.base`
 * :ref:`bob.bio.base`
 * :ref:`bob.pad.base`
 
 Interfaces
 ^^^^^^^^^^
 
-* :ref:`bob.db.atnt`
-* :ref:`bob.db.iris`
-* :ref:`bob.db.mnist`
+* (deprecated) :ref:`bob.db.atnt`
 
 
 

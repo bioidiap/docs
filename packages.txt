@@ -5,15 +5,9 @@ bob/bob.core
 bob/bob.io.base
 bob/bob.math
 bob/bob.measure
-bob/bob.io.image
-bob/bob.db.base
 bob/bob.sp
 bob/bob.ap
-bob/bob.ip.base
-bob/bob.ip.color
-bob/bob.ip.gabor
 bob/bob.learn.em
-bob/bob.db.atnt
 bob/gridtk
 bob/bob.pipelines
 bob/bob.bio.base

@@ -40,18 +40,12 @@ Index of all packages
    bob.bio.video <bob/bob.bio.video/doc/index.rst>
    bob.blitz <bob/bob.blitz/doc/index.rst>
    bob.core <bob/bob.core/doc/index.rst>
-   bob.db.atnt <bob/bob.db.atnt/doc/index.rst>
-   bob.db.base <bob/bob.db.base/doc/index.rst>
    bob.devtools <bob/bob.devtools/doc/index.rst>
    bob.extension <bob/bob.extension/doc/index.rst>
    bob.fusion.base <bob/bob.fusion.base/doc/index.rst>
    bob.io.base <bob/bob.io.base/doc/index.rst>
-   bob.io.image <bob/bob.io.image/doc/index.rst>
    bob.io.stream <bob/bob.io.stream/doc/index.rst>
-   bob.ip.base <bob/bob.ip.base/doc/index.rst>
    bob.ip.binseg <bob/bob.ip.binseg/doc/index.rst>
-   bob.ip.color <bob/bob.ip.color/doc/index.rst>
-   bob.ip.gabor <bob/bob.ip.gabor/doc/index.rst>
    bob.ip.qualitymeasure <bob/bob.ip.qualitymeasure/doc/index.rst>
    bob.ip.stereo <bob/bob.ip.stereo/doc/index.rst>
    bob.learn.em <bob/bob.learn.em/doc/index.rst>

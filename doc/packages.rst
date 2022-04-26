@@ -18,8 +18,7 @@ Basic Functionality (deprecated)
 Data Input and Output
 ---------------------
 
-* (deprecated) :ref:`bob.io.base`
-* (deprecated) :ref:`bob.io.image`
+* :ref:`bob.io.base`
 * :ref:`bob.io.stream`
 
 Signal, Audio, Image and Video Processing
@@ -27,10 +26,6 @@ Signal, Audio, Image and Video Processing
 
 * (deprecated) :ref:`bob.sp`
 * (deprecated) :ref:`bob.ap`
-* (deprecated) :ref:`bob.ip.base`
-* (deprecated) :ref:`bob.ip.color`
-* (deprecated) :ref:`bob.ip.gabor`
-* (deprecated) :ref:`bob.ip.qualitymeasure`
 * :ref:`bob.ip.binseg`
 * :ref:`bob.ip.stereo`
 
@@ -75,17 +70,6 @@ Presentation Attack Detection (anti-spoofing)
 Database Interfaces
 -------------------
 
-Base Database Packages
-^^^^^^^^^^^^^^^^^^^^^^
-
-* (deprecated) :ref:`bob.db.base`
+* :ref:`bob.pipelines`
 * :ref:`bob.bio.base`
 * :ref:`bob.pad.base`
-
-Interfaces
-^^^^^^^^^^
-
-* (deprecated) :ref:`bob.db.atnt`
-
-
-

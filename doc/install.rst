@@ -27,13 +27,13 @@ Bob package. Bob does not work on Windows.
        $ conda config --set show_channel_urls True
 
 #.  Create an environment with the specific Bob packages that you need. For
-    example if you want to install ``bob.io.image`` and ``bob.bio.face``:
+    example if you want to install ``bob.io.base`` and ``bob.bio.face``:
 
     .. code:: sh
 
        $ mamba create --name bob_env1 --override-channels \
          -c https://www.idiap.ch/software/bob/conda -c conda-forge \
-         python=3 bob.io.image bob.bio.face
+         python=3 bob.io.base bob.bio.face
 
 #.  Then activate the environment and configure its channels to make sure the
     channel list is correct in the future as well:

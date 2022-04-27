@@ -18,28 +18,18 @@ requirements:
     - bob.devtools
     # LIST OF BOB PACKAGES - START
     - bob.extension
-    - bob.blitz
-    - bob.core
     - bob.io.base
-    - bob.math
     - bob.measure
-    - bob.sp
-    - bob.ap
     - bob.learn.em
-    - gridtk
     - bob.pipelines
     - bob.bio.base
-    - bob.bio.gmm
     - bob.bio.face
     - bob.bio.video
     - bob.bio.vein
-    - bob.ip.qualitymeasure
+    - bob.bio.spear
     - bob.pad.base
     - bob.pad.face
     - bob.fusion.base
-    - bob.ip.binseg
-    - bob.io.stream
-    - bob.ip.stereo
     # LIST OF BOB PACKAGES - END
 test:
   commands:

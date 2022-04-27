@@ -9,25 +9,10 @@ for a comprehensive list of packages that either **use Bob** or **are part of Bo
 Moreover, you may find the list of Bob packages that we maintain below.
 
 
-Basic Functionality (deprecated)
---------------------------------
-
-* :ref:`bob.core`
-* :ref:`bob.math`
-
 Data Input and Output
 ---------------------
 
 * :ref:`bob.io.base`
-* :ref:`bob.io.stream`
-
-Signal, Audio, Image and Video Processing
------------------------------------------
-
-* (deprecated) :ref:`bob.sp`
-* (deprecated) :ref:`bob.ap`
-* :ref:`bob.ip.binseg`
-* :ref:`bob.ip.stereo`
 
 Machine Learning
 ----------------
@@ -41,12 +26,7 @@ Modules for Developers
 
 * :ref:`bob.devtools`
 * :ref:`bob.extension`
-* (deprecated) :ref:`bob.blitz`
 
-Parallel Execution
-------------------
-
-* :ref:`gridtk`
 
 Biometric Recognition
 ---------------------
@@ -55,7 +35,7 @@ Biometric Recognition
 * :ref:`bob.bio.face`
 * :ref:`bob.bio.vein`
 * :ref:`bob.bio.video`
-* :ref:`bob.bio.gmm`
+* :ref:`bob.bio.spear`
 * :ref:`bob.fusion.base`
 
 

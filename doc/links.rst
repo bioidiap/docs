@@ -9,15 +9,19 @@
 .. _c++: https://isocpp.org/
 .. _CMake: http://www.cmake.org
 .. _conda: https://conda.io/
+.. _dask: https://dask.org
 .. _Dvipng: http://savannah.nongnu.org/projects/dvipng/
 .. _FFMpeg: http://ffmpeg.org
 .. _fftw: http://www.fftw.org/
 .. _giflib: http://giflib.sourceforge.net/
 .. _GPL-2.0: http://www.opensource.org/licenses/GPL-2.0
 .. _GPL-3.0: http://www.opensource.org/licenses/GPL-3.0
+.. _h5py: http://www.h5py.org/
 .. _HDF5 License: ftp://ftp.hdfgroup.org/HDF5/current/src/unpacked/COPYING
 .. _HDF5: http://www.hdfgroup.org/HDF5
 .. _idiap: http://www.idiap.ch
+.. _imageio-ffmpeg: https://github.com/imageio/imageio-ffmpeg
+.. _imageio: https://imageio.readthedocs.io
 .. _install: https://www.idiap.ch/software/bob/install
 .. _IPython: http://ipython.scipy.org
 .. _Lapack: http://www.netlib.org/lapack
@@ -41,6 +45,7 @@
 .. _NumPy: http://www.numpy.org
 .. _packages: https://www.idiap.ch/software/bob/packages
 .. _Pillow: http://python-pillow.github.io/
+.. _pip: https://pip.pypa.io/en/stable/
 .. _pkg-config: http://www.freedesktop.org/wiki/Software/pkg-config/
 .. _Python-2.0: http://www.opensource.org/licenses/Python-2.0
 .. _python: http://www.python.org

@@ -8,32 +8,35 @@ By now you should know that Bob is made of several :ref:`bob.packages`. There is
 no single package that installs all Bob packages because that would just take
 too much space. Follow the instruction below to install any Bob package.
 
-We offer pre-compiled binary installations of Bob using `conda`_ for Linux and
-MacOS 64-bit operating systems. Follow the guide below to learn to install any
-Bob package. Bob does not work on Windows.
+We offer conda_ and pip_ installations of Bob for Linux and MacOS 64-bit
+operating systems (Most packages support arm 64-bit on MacOS too). Follow the
+guide below to learn to install any Bob package. *Bob does not work on
+Windows*.
 
-#.  Install `mamba`_  (`mambaforge`_ is preferred) or `conda`_ (`miniforge`_ is
+#.  Install `mamba`_  (`mambaforge`_ is preferred) or conda_ (`miniforge`_ is
     preferred) and get familiar with it. The instructions below use ``mamba``
     because it's faster than ``conda``, but you may replace it by ``conda``.
 
-#.  Make sure you have an up-to-date `conda`_ installation (conda 4.4 and above
+#.  Make sure you have an up-to-date conda_ installation (conda 4.4 and above
     is needed) with the **correct configuration** by running the commands below:
 
     .. code:: sh
 
        # install mamba if you don't yet have it installed.
+       # mamba must be installed in your base environment.
        $ conda install -n base -c conda-forge mamba
        $ mamba update -n base -c conda-forge conda mamba
        $ conda config --set show_channel_urls True
 
 #.  Create an environment with the specific Bob packages that you need. For
-    example if you want to install ``bob.io.base`` and ``bob.bio.face``:
+    example if you want to install ``bob.io.base``, ``bob.bio.face``, and ``pytorch``:
 
     .. code:: sh
 
        $ mamba create --name bob_env1 --override-channels \
-         -c https://www.idiap.ch/software/bob/conda -c conda-forge \
-         python=3 bob.io.base bob.bio.face
+         -c https://www.idiap.ch/software/bob/conda \
+         -c conda-forge \
+         python=3 bob.io.base bob.bio.face pytorch
 
 #.  Then activate the environment and configure its channels to make sure the
     channel list is correct in the future as well:
@@ -50,6 +53,13 @@ Bob package. Bob does not work on Windows.
 
        $ conda activate bob_env1
        $ mamba install bob.bio.video ...
+
+#. Alternatively, you can use pip_ to install the packages but we don't test our pip packages:
+
+    .. code:: sh
+
+       $ conda activate bob_env1
+       $ pip install bob.bio.face ...
 
 For a comprehensive list of packages that are either part of |project| or use
 |project|, please visit :ref:`bob.packages`.

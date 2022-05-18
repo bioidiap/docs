@@ -21,12 +21,6 @@ Machine Learning
 * :ref:`bob.learn.em`
 * :ref:`bob.pipelines`
 
-Modules for Developers
-----------------------
-
-* :ref:`bob.devtools`
-* :ref:`bob.extension`
-
 
 Biometric Recognition
 ---------------------
@@ -47,9 +41,8 @@ Presentation Attack Detection (anti-spoofing)
 * :ref:`bob.fusion.base`
 
 
-Database Interfaces
--------------------
+Modules for Developers
+----------------------
 
-* :ref:`bob.pipelines`
-* :ref:`bob.bio.base`
-* :ref:`bob.pad.base`
+* :ref:`bob.devtools`
+* :ref:`bob.extension`

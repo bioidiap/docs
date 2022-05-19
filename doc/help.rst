@@ -32,7 +32,7 @@ There are several ways to get help if you are facing a problem.
 First, you should search for possible existing answers in:
 
 * https://stackoverflow.com/questions/tagged/python-bob
-* https://www.idiap.ch/software/bob/discuss
+* https://www.idiap.ch/software/bob/discuss (read only mailing list)
 * https://www.idiap.ch/software/bob/wiki
 
 or you may just want to search on the Internet for possible answers.
@@ -48,11 +48,7 @@ How to contribute
 =================
 
 Bob is open source and we welcome contributions.
-If you find a bug, please let use know through our mailing list:
-https://www.idiap.ch/software/bob/discuss.
-If you want to contribute, please also get in touch with us through our mailing list
-first.
-We maintain a mirror of Bob packages on https://github.com/bioidiap/ which should allow
-you to open pull requests on Bob packages.
+We maintain a mirror of Bob packages on https://github.com/bioidiap/.
+Feel free to open issues and/or pull requests on this mirror.
 
 .. include:: links.rst

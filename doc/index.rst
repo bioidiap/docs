@@ -10,11 +10,11 @@ Bob_ is a free signal-processing and machine learning toolbox originally develop
 the Biometrics Security and Privacy Group, the Biosignal Processing Group, and the
 Research and Development Engineers at `Idiap`_ Research Institute, Switzerland.
 
-The toolbox is written in a mix of `Python`_ and `C++`_ and is designed to be both
-efficient and reduce development time. It is composed of a reasonably large number of
-:ref:`independent packages <bob.packages>` that implement tools for image, audio &
-video processing, machine learning & pattern recognition, and a lot more task specific
-packages.
+The newest version of the toolbox is written in pure `Python`_ and is designed
+to be both efficient and reduce development time. It is composed of seveal
+:ref:`independent packages <bob.packages>` that implement tools for image, audio
+& video processing, machine learning & pattern recognition, and a lot more task
+specific packages.
 
 
 .. toctree::
@@ -23,6 +23,7 @@ packages.
    install
    help
    packages
+   tutorial
 
 
 Index of all packages
@@ -37,6 +38,7 @@ Index of all packages
    bob.bio.spear <bob/bob.bio.spear/doc/index.rst>
    bob.bio.vein <bob/bob.bio.vein/doc/index.rst>
    bob.bio.video <bob/bob.bio.video/doc/index.rst>
+   bob.devtools <bob/bob.devtools/doc/index.rst>
    bob.extension <bob/bob.extension/doc/index.rst>
    bob.fusion.base <bob/bob.fusion.base/doc/index.rst>
    bob.io.base <bob/bob.io.base/doc/index.rst>

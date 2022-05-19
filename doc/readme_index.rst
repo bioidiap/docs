@@ -12,6 +12,7 @@ README of all Packages
    bob.bio.spear <bob/bob.bio.spear/README.rst>
    bob.bio.vein <bob/bob.bio.vein/README.rst>
    bob.bio.video <bob/bob.bio.video/README.rst>
+   bob.devtools <bob/bob.devtools/README.rst>
    bob.extension <bob/bob.extension/README.rst>
    bob.fusion.base <bob/bob.fusion.base/README.rst>
    bob.io.base <bob/bob.io.base/README.rst>

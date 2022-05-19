@@ -38,6 +38,7 @@ Index of all packages
    bob.bio.spear <bob/bob.bio.spear/doc/index.rst>
    bob.bio.vein <bob/bob.bio.vein/doc/index.rst>
    bob.bio.video <bob/bob.bio.video/doc/index.rst>
+   bob.devtools <bob/bob.devtools/doc/index.rst>
    bob.extension <bob/bob.extension/doc/index.rst>
    bob.fusion.base <bob/bob.fusion.base/doc/index.rst>
    bob.io.base <bob/bob.io.base/doc/index.rst>

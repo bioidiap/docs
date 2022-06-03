@@ -56,10 +56,10 @@ Windows*.
 
 #. Alternatively, you can use pip_ to install the packages but we don't test our pip packages:
 
-    .. code:: sh
+.. code:: sh
 
-       $ conda activate bob_env1
-       $ pip install bob.bio.face ...
+    $ conda activate bob_env1
+    $ pip install bob.bio.face ...
 
 For a comprehensive list of packages that are either part of |project| or use
 |project|, please visit :ref:`bob.packages`.
@@ -85,6 +85,11 @@ For a comprehensive list of packages that are either part of |project| or use
     https://stackoverflow.com/questions/50803148 for installations on how to
     install Bob from source.
 
+.. note::
+
+    If you cannot install a Bob package, you might be trying to install an old
+    package. Please see :ref:`bob.install_old_versions` for instructions on how
+    to install old versions of Bob.
 
 .. _bob.source:
 
@@ -104,6 +109,7 @@ your new code in a new package instead of modifying the original package.
   environments. The only safe way to recover from this is to delete your Conda
   installation completely and installing everything again from scratch.
 
+.. _bob.install_old_versions:
 
 Installing older versions of Bob
 ================================
@@ -113,15 +119,20 @@ using conda. For example:
 
 .. code:: sh
 
-    $ mamba install \
+    $ mamba create -n old_bob_env \
+    --no-channel-priority \
     -c https://www.idiap.ch/software/bob/conda \
     -c defaults \
     -c https://www.idiap.ch/software/bob/conda/label/archive \
-    bob=4.0.0 bob.io.base
+    bob=4.0.0 bob.bio.face
 
-will install the version of ``bob.io.base`` that was associated with the Bob
-4.0.0 release. Bob 9 and earlier used the ``defaults`` channel as base, for Bob
-10 and later replace ``defaults`` with ``conda-forge``.
+will install the version of ``bob.bio.face`` that was associated with the Bob
+4.0.0 release.
+
+.. note::
+
+    Bob 9 and earlier used the ``defaults`` channel as base, for Bob 10 and
+    later replace ``defaults`` with ``conda-forge`` in the instructions above.
 
 .. note::
 

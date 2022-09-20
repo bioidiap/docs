@@ -26,7 +26,7 @@ stages:
   image: quay.io/condaforge/linux-anvil-cos7-x86_64
   before_script:
     - curl --silent "${BOOTSTRAP}" --output "bootstrap.py"
-    - python3 bootstrap.py -vv channel base
+    - python3 bootstrap.py -vv channel base -t 5.3.0
     - source ${CONDA_ROOT}/etc/profile.d/conda.sh
     - conda activate base
     - conda install memory_profiler -c conda-forge
@@ -43,7 +43,7 @@ build:
   stage: build
   variables:
     GITLAB_CHECKOUT_STRATEGY: "https://gitlab-ci-token:${CI_BUILD_TOKEN}@gitlab.idiap.ch/"
-    PYTHON_VERSION: "3.9"
+    PYTHON_VERSION: "3.8"
     BUILD_EGG: "true"
   script:
     - mprof -o mem_profile.dat run bdt ci docs -vv packages.txt
@@ -53,6 +53,7 @@ build:
     expire_in: 1 week
     paths:
       - sphinx
+      - mem_profile.dat
       - ${CONDA_ROOT}/conda-bld/linux-64/*.conda
       - ${CONDA_ROOT}/conda-bld/linux-64/*.tar.bz2
   cache:

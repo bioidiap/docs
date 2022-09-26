@@ -6,7 +6,7 @@ Bob is a software stack that contains numerous repositories.
 The core packages and its respective documentation of it's system is listed here.
 
 | package | README | stable documentation | latest documentation |
-|---|---|---|---|
+|---|:---:|:---:|:---:|
 | bob.bio.base | [README](https://gitlab.idiap.ch/bob/bob.bio.base/-/blob/master/README.rst) | [![docs](https://img.shields.io/badge/docs-stable-yellow.svg)](https://www.idiap.ch/software/bob/docs/bob/bob.bio.base/stable/index.html) | [![docs](https://img.shields.io/badge/docs-latest-orange.svg)](https://www.idiap.ch/software/bob/docs/bob/bob.bio.base/master/index.html) |
 | bob.bio.face | [README](https://gitlab.idiap.ch/bob/bob.bio.face/-/blob/master/README.rst) | [![docs](https://img.shields.io/badge/docs-stable-yellow.svg)](https://www.idiap.ch/software/bob/docs/bob/bob.bio.face/stable/index.html) | [![docs](https://img.shields.io/badge/docs-latest-orange.svg)](https://www.idiap.ch/software/bob/docs/bob/bob.bio.face/master/index.html) |
 | bob.bio.spear | [README](https://gitlab.idiap.ch/bob/bob.bio.spear/-/blob/master/README.rst)| [![docs](https://img.shields.io/badge/docs-stable-yellow.svg)](https://www.idiap.ch/software/bob/docs/bob/bob.bio.spear/stable/index.html) | [![docs](https://img.shields.io/badge/docs-latest-orange.svg)](https://www.idiap.ch/software/bob/docs/bob/bob.bio.spear/master/index.html) |

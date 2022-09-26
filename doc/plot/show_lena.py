@@ -1,1 +1,0 @@
-../bob/bob.ip.flandmark/doc/plot/show_lena.py

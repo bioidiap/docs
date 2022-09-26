@@ -1,1 +1,0 @@
-../bob/bob.bio.face/doc/plot/default_crops.py

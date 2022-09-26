@@ -1,44 +1,130 @@
 ******************************************
-Bob's Documentation Aggregation Repository
+Bob's Software Stack Documentation
 ******************************************
 
-This repository will build the documentation of all Bob packages at the same
-time.
-The built documentation is served at: https://www.idiap.ch/software/bob/documentation
+Bob is a software stack that contains numerous repositories.
+The core packages of it's system is listed here.
 
-Adding a new package
-====================
+bob.bio.base `README <https://gitlab.idiap.ch/bob/bob.bio.base/-/blob/master/README.rst>`_:
 
-To add a new package:
+.. image:: https://img.shields.io/badge/docs-stable-yellow.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.bio.base/stable/index.html
+.. image:: https://img.shields.io/badge/docs-latest-orange.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.bio.base/master/index.html
 
-* Make sure the package is **public** first. Do not add private packages here.
-* Make sure the package is in https://gitlab.idiap.ch/bob/bob first.
-* The list of packages here should be in sync with `bob/bob`.
-* Remove packages which are here but no longer are in `bob/bob`.
-* Add it in ``conda/meta.yaml``, ``packages.txt``, ``doc/index.rst``, ``doc/readme_index.rst``, and ``doc/packages.rst``.
-* You may repeat a package under several categories in ``doc/packages.rst``.
-* If it plots something using matplotlib during its documentation generation,
-  make sure you add a symlink for it in the docs folder.
+----------------------------------------------------------------------------------------
 
-Test this package (build the documentation)
-===========================================
+bob.bio.face `README <https://gitlab.idiap.ch/bob/bob.bio.face/-/blob/master/README.rst>`_:
 
-To build and test this package, you can use bob.devtools.
-After installing bob.devtools, run::
+.. image:: https://img.shields.io/badge/docs-stable-yellow.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.bio.face/stable/index.html
+.. image:: https://img.shields.io/badge/docs-latest-orange.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.bio.face/master/index.html
 
-    $ bdt local docs -vv packages.txt
+----------------------------------------------------------------------------------------
 
-This will setup everything and build the documentation.
+bob.bio.spear `README <https://gitlab.idiap.ch/bob/bob.bio.spear/-/blob/master/README.rst>`_:
 
-However, if you want to iterate on the documentation and keep building it, it's faster
-to create a conda environment and build the docs manually::
+.. image:: https://img.shields.io/badge/docs-stable-yellow.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.bio.spear/stable/index.html
+.. image:: https://img.shields.io/badge/docs-latest-orange.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.bio.spear/master/index.html
 
-    $ bdt local docs -vv packages.txt  # run this once so it setups everything for you
-    $ bdt create -vv bob_docs  # create a conda environment named ``bob_docs``
-    $ conda activate bob_docs
+----------------------------------------------------------------------------------------
 
-Then, to build the documentation, run::
+bob.bio.vein `README <https://gitlab.idiap.ch/bob/bob.bio.vein/-/blob/master/README.rst>`_:
 
-    $ sphinx-build doc sphinx
+.. image:: https://img.shields.io/badge/docs-stable-yellow.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.bio.vein/stable/index.html
+.. image:: https://img.shields.io/badge/docs-latest-orange.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.bio.vein/master/index.html
 
-Pay attention to warning messages and carefully inspect the built documentation.
+----------------------------------------------------------------------------------------
+
+bob.bio.video `README <https://gitlab.idiap.ch/bob/bob.bio.video/-/blob/master/README.rst>`_:
+
+.. image:: https://img.shields.io/badge/docs-stable-yellow.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.bio.video/stable/index.html
+.. image:: https://img.shields.io/badge/docs-latest-orange.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.bio.video/master/index.html
+
+----------------------------------------------------------------------------------------
+
+bob.devtools `README <https://gitlab.idiap.ch/bob/bob.devtools/-/blob/master/README.rst>`_:
+
+.. image:: https://img.shields.io/badge/docs-stable-yellow.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.devtools/stable/index.html
+.. image:: https://img.shields.io/badge/docs-latest-orange.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.devtools/master/index.html
+
+----------------------------------------------------------------------------------------
+
+bob.extension `README <https://gitlab.idiap.ch/bob/bob.extension/-/blob/master/README.rst>`_:
+
+.. image:: https://img.shields.io/badge/docs-stable-yellow.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.extension/stable/index.html
+.. image:: https://img.shields.io/badge/docs-latest-orange.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.extension/master/index.html
+
+----------------------------------------------------------------------------------------
+
+bob.fusion.base `README <https://gitlab.idiap.ch/bob/bob.fusion.base/-/blob/master/README.rst>`_:
+
+.. image:: https://img.shields.io/badge/docs-stable-yellow.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.fusion.base/stable/index.html
+.. image:: https://img.shields.io/badge/docs-latest-orange.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.fusion.base/master/index.html
+
+----------------------------------------------------------------------------------------
+
+bob.io.base `README <https://gitlab.idiap.ch/bob/bob.io.base/-/blob/master/README.rst>`_:
+
+.. image:: https://img.shields.io/badge/docs-stable-yellow.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.io.base/stable/index.html
+.. image:: https://img.shields.io/badge/docs-latest-orange.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.io.base/master/index.html
+
+----------------------------------------------------------------------------------------
+
+bob.learn.em `README <https://gitlab.idiap.ch/bob/bob.learn.em/-/blob/master/README.rst>`_ :
+
+.. image:: https://img.shields.io/badge/docs-stable-yellow.svg
+   :target: https://www.idiap.ch/software/bob/docs/bob/bob.learn.em/stable/index.html
+.. image:: https://img.shields.io/badge/docs-latest-orange.svg
+   :target: https://www.idiap.ch/software/bob/docs/bob/bob.learn.em/master/index.html
+
+----------------------------------------------------------------------------------------
+
+bob.measure `README <https://gitlab.idiap.ch/bob/bob.measure/-/blob/master/README.rst>`_:
+
+.. image:: https://img.shields.io/badge/docs-stable-yellow.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.measure/stable/index.html
+.. image:: https://img.shields.io/badge/docs-latest-orange.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.measure/master/index.html
+
+----------------------------------------------------------------------------------------
+
+bob.pad.base `README <https://gitlab.idiap.ch/bob/bob.pad.base/-/blob/master/README.rst>`_:
+
+.. image:: https://img.shields.io/badge/docs-stable-yellow.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.pad.base/stable/index.html
+.. image:: https://img.shields.io/badge/docs-latest-orange.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.pad.base/master/index.html
+
+----------------------------------------------------------------------------------------
+
+bob.pad.face `README <https://gitlab.idiap.ch/bob/bob.pad.face/-/blob/master/README.rst>`_:
+
+.. image:: https://img.shields.io/badge/docs-stable-yellow.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.pad.face/stable/index.html
+.. image:: https://img.shields.io/badge/docs-latest-orange.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.pad.face/master/index.html
+
+----------------------------------------------------------------------------------------
+
+bob.pipelines `README <https://gitlab.idiap.ch/bob/bob.pipelines/-/blob/master/README.rst>`_:
+
+.. image:: https://img.shields.io/badge/docs-stable-yellow.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.pipelines/stable/index.html
+.. image:: https://img.shields.io/badge/docs-latest-orange.svg
+    :target: https://www.idiap.ch/software/bob/docs/bob/bob.pipelines/master/index.html

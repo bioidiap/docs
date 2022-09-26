@@ -3,7 +3,7 @@ Bob's Software Stack Documentation
 ******************************************
 
 Bob is a software stack that contains numerous repositories.
-The core packages of it's system is listed here.
+The core packages and its respective documentation of it's system is listed here.
 
 bob.bio.base `README <https://gitlab.idiap.ch/bob/bob.bio.base/-/blob/master/README.rst>`_:
 

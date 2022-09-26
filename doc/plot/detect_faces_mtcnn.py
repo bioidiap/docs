@@ -1,1 +1,0 @@
-../bob/bob.ip.facedetect/doc/plot/detect_faces_mtcnn.py

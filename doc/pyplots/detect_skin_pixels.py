@@ -1,1 +1,0 @@
-../bob/bob.ip.skincolorfilter/doc/pyplots/detect_skin_pixels.py

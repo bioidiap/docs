@@ -1,7 +1,3 @@
 *.swo
 *.swp
 *~
-doc/bob/
-doc/extra-intersphinx.txt
-doc/nitpick-exceptions.txt
-sphinx/

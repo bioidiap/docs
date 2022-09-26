@@ -1,1 +1,0 @@
-../bob/bob.ip.gabor/doc/plot/wavelet.py

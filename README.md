@@ -1,6 +1,4 @@
-******************************************
-Bob's Software Stack Documentation
-******************************************
+# Bob's Software Stack Documentation
 
 Bob is a software stack that contains numerous repositories.
 The core packages and its respective documentation of it's system is listed here.

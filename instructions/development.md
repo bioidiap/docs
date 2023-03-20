@@ -38,8 +38,14 @@ pip install --no-deps --editable ./bob.bio.face
 > ``` sh
 > devtool env --python=3.10 -P bob ./bob.bio.face
 > ```
+>
+> or, if the default is set correctly:
+>
+> ``` sh
+> devtool env --python=3.10 ./bob.bio.face
+> ```
 
-Any modification of the project will be reflected in the environment (thanks to
+Any modification of the project's code will be reflected in the environment (thanks to
 `--editable`). If this is not a desirable behavior, you can install the package using:
 
 ``` sh
@@ -59,7 +65,7 @@ respect it also in the docstring and text files).
 
 Do document your functions, classes and methods with some docstring.
 
-Try use python typing for your functions and methods arguments.
+Try to use python typing for your functions and methods arguments.
 
 ``` python
 def append_suffix(string: str, suffix: str) -> str:
@@ -84,6 +90,10 @@ def append_suffix(string: str, suffix: str) -> str:
 
 Commit your changes to a branch (not main or master), and create merge requests (MR) in
 GitLab for your changes to be included into a package.
+
+``` sh
+git checkout -b awesome-branch
+```
 
 Prefer the use of [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/)
 to write your commit messages.
@@ -110,7 +120,8 @@ fail.
 You can then `git push` your changes to GitLab and create a merge request with a
 description of the changes you made.
 
-A CI pipeline will then be run to ensure tests pass and the package can be built.
+A CI pipeline will be run to ensure `pre-commit` is valid, tests pass, and the package
+can be built.
 
 # Releasing a bob package
 
@@ -130,10 +141,11 @@ Most of these steps are automated in `idiap-devtools` and can be run with the co
 
 ``` sh
 devtool gitlab changelog -o face_changelog.md bob/bob.bio.face
+# Check and eventually edit face_changelog.md
 devtool gitlab release face_changelog.md
 ```
 
-Or to release multiple packages:
+Or you can give a list in a file to release multiple packages:
 
 ``` sh
 echo bob/bob.bio.base > packages.txt
@@ -162,26 +174,33 @@ package in the changelog:
 ```
 
 If the changes are more important, you can change `patch` to `minor` or `major` before
-calling `devtool gitlab release` on that changelog.
+calling `devtool gitlab release` on that changelog package entry.
 
 ```md
-# bob/bob.bio.face: major
+# bob/bob.bio.face: minor
 
-  - bob/bob.bio.face!102: Removed ham
+  - bob/bob.bio.face!103: Added baz
+
+# bob/bob.bio.video: major
+
+  - bob/bob.bio.video!100: Removed ham
 
     BREAKING CHANGE: ham removed.
 
-  - bob.bob.bio.face!103: Modified spam
+  - bob.bob.bio.video!101: Modified spam
 
-    Description of changes.
-
-# bob/bob.bio.video: minor
-
-  - bob/bob.bio.video!100: Added baz
+    Description of changes to spam.
 ```
 
 Once `devtool gitlab release` is called, each package in the changelog file will be
-edited to pin the version of the dependencies
-tagged on GitLab with the appropriate version and a CI pipeline will be run that
-publishes the new package on the main conda channel and on pypi. The command will wait
-for the previous package's pipeline to end before trying to release the next one.
+edited to pin the version of its dependencies then tagged on GitLab with the appropriate
+version and a CI pipeline will be run that publishes the new package on the main conda
+channel and on Pypi. The command will wait for the previous package's pipeline to end
+before trying to release the next one.
+
+## Release of bob/bob
+
+To guarantee that all the packages of bob work between each others the bob/bob package
+can be released, that pins all the `bob/*` packages.
+
+TODO is this still true? bob packages can pin other bob packages in them directly...

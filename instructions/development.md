@@ -123,6 +123,21 @@ description of the changes you made.
 A CI pipeline will be run to ensure `pre-commit` is valid, tests pass, and the package
 can be built.
 
+## Installing cuda packages with conda
+
+If your machine has no GPU available, conda/mamba will try to install the non-cuda (cpu)
+version of packages like pytorch or tensorflow.
+
+There is a way to force conda to install the cuda version of package by setting the
+`CONDA_OVERRIDE_CUDA` environment variable to the desired version of cuda that would be
+available on a machine with a GPU:
+
+```
+devtool env --python=3.10 -P bob ./bob.bio.face
+export CONDA_OVERRIDE_CUDA="11.6"
+mamba env create -f environment.yaml -n bob_face_devel
+```
+
 # Releasing a bob package
 
 Once a package is passing the CI pipelines on the master branch the package is released
@@ -176,7 +191,7 @@ package in the changelog:
 If the changes are more important, you can change `patch` to `minor` or `major` before
 calling `devtool gitlab release` on that changelog package entry.
 
-```md
+``` md
 # bob/bob.bio.face: minor
 
   - bob/bob.bio.face!103: Added baz
@@ -200,7 +215,17 @@ before trying to release the next one.
 
 ## Release of bob/bob
 
-To guarantee that all the packages of bob work between each others the bob/bob package
+To guarantee that all the packages of bob work between each others the `bob/bob` package
 can be released, that pins all the `bob/*` packages.
 
-TODO is this still true? bob packages can pin other bob packages in them directly...
+To do so, follow the same procedure but specify `bob/bob` as target package, with the
+version update type (patch, minor, major) corresponding to the maximum of the released
+packages for that version:
+
+``` sh
+devtool gitlab changelog -o bob_changelog.md bob/bob
+# Pleas, edit bob_changelog.md to set the release type
+devtool gitlab release bob_changelog.md
+```
+
+This will release the `bob` package, useful to install all bob packages at once.

@@ -105,3 +105,17 @@ bob.bio.face      7.1.3b0      pyhe1939b0_36  https://www.idiap.ch/software/bob/
 > conda activate bob_face_beta
 > mamba install --override-channels -c https://www.idiap.ch/software/bob/conda/label/beta -c conda-forge -c defaults bob.pad.face
 > ```
+
+## Installing cuda packages with conda
+
+If your machine has no GPU available, conda/mamba will try to install the non-cuda (cpu)
+version of packages like pytorch or tensorflow.
+
+There is a way to force conda to install the cuda version of package by setting the
+`CONDA_OVERRIDE_CUDA` environment variable to the desired version of cuda that would be
+available on a machine with a GPU:
+
+```
+export CONDA_OVERRIDE_CUDA="11.6"
+mamba create -n bob_face --override-channels -c https://www.idiap.ch/software/bob/conda -c conda-forge -c defaults bob.bio.face
+```
